@@ -39,7 +39,8 @@
         object-fit: scale-down;
         filter: drop-shadow(5px 20x 0px #000);
         position: relative;
-        padding: 40px;
+        padding: 10px;
+        padding-bottom: 30px;
 }
     
 }

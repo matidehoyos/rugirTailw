@@ -256,9 +256,7 @@
     padding: 70px 4%;
     padding-bottom: 50px;
     z-index: 100;
-    background-image: url('../../../public/titular.jpeg');
-    background-position: bottom;
-    background-size: cover;
+    background-color: #000000;
 }
 
 .titulo {
