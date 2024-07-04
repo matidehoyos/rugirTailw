@@ -4,7 +4,7 @@ function Encargo() {
   return (
     <div className={style.container}>
         <div className={style.image}>
-                <img className={style.tigre} src="./rugir.png" alt="logo" />
+                <img className={style.tigre} src="./lll.png" alt="logo" />
         </div>
         <div className={style.txt}>
              <p>    <span className={style.idea}>CONTANOS TU IDEA</span> <br/><span className={style.env}>O ENVIANOS LA IMAGEN</span>  

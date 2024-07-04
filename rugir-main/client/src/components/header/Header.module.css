@@ -348,7 +348,7 @@
 }
 
 .regalo {
-    background-color: #fff;
+    background-image: radial-gradient( #fff,#efefef);
     margin: 0;
     padding: 120px 4%;
     display: flex;
