@@ -4,9 +4,9 @@ import style from './Encargo.module.css'
 function Encargo() {
   return (
     <div className={style.container}>
-        <div className={style.image}>
+      {/*  <div className={style.image}>
                 <img className={style.tigre} src="./lll.png" alt="logo" />
-        </div>
+        </div> */ }
         
         <div className={style.txt}>
              <p>    <span className={style.idea}>CONTANOS TU IDEA</span> <br/><span className={style.env}>O ENVIANOS LA IMAGEN</span>  
