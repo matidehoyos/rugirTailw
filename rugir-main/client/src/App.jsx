@@ -19,10 +19,10 @@ function App() {
       <Intro />
       <NavBar />
       <Header />
+      <Alfombras />
       <Encargo />
       <Categorias />
       <Ubicacion />
-      <Alfombras />
       <About />
       <Contact />
       <PreguntasFrecuentes />
