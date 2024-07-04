@@ -15,9 +15,9 @@ function Header() {
                             <h1 className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
                             <p className={style.amano}>PRODUCTOS HECHOS A MANO</p>
                             <h4 className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
-                            <div className={style.mov}>
-                                <Alfombras />
-                            </div>
+                        </div>
+                        <div className={style.mov}>
+                            <Alfombras />
                         </div>
                     </div>
                     <div className={style.imagenes}>
