@@ -1,0 +1,121 @@
+.container {
+    background-color: violet;
+    padding: 100px 7%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image {display: none;}
+
+.imag {
+    width: 50%;
+    background-image: url('../../../public/galgo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.caja {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.caja h3 {
+    text-align: left;
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #333;
+}
+
+.caja p {
+    width: 100%;
+    font-size: 1.6vw;
+    font-weight: 500;
+    line-height: 105%;
+    text-align: left;
+    color: #222;
+    letter-spacing: .6px;
+}
+
+.caja p span {
+    font-weight: 800;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        height: 500px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-sizing: border-box;
+        background-color: #111;
+    }
+    
+    .imag {
+        display: none;
+    }
+
+    .image {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-image: none;
+    }
+
+    .image img {
+        width: 100%;
+        height: 500px;
+        opacity: .9;
+        object-fit: scale-down;
+    }
+    
+    .caja {
+        z-index: 200;
+        width: 100%;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0;
+        padding: 5px 4%;
+        overflow-x: hidden;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    
+    .caja h3 {
+        display: none;
+    }
+    
+    .caja p {
+        width: 96%;
+        font-size: 20px;
+        font-weight: 450;
+        line-height: 23px;
+        text-align: left;
+        color: rgba(256, 256, 256, .8);
+        letter-spacing: .8px;
+        text-shadow: 0px 0px 4px #000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .caja p span {
+        font-weight: 500;
+        color:  rgb(255, 255, 124);
+    }
+}
+

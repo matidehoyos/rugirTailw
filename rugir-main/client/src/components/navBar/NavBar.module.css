@@ -1,0 +1,142 @@
+.container {
+      width: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 7%;
+      background-color: #333;
+      border-bottom: 2px solid #fff;
+      z-index: 3000;
+  }
+  
+  .logo {
+      width: 120px;
+      height: auto;
+      padding: 0px;
+      padding-top: 7px;
+  }
+  
+  .logo img {
+      width: 120px;
+      height: 50px;
+      object-fit: cover;
+      object-position: center;
+      border-bottom-left-radius: 30%;
+      border-top-left-radius: 30%;
+  }
+  
+  .menu ul {
+      width: auto;
+    }
+    
+    .menu li {
+      display: inline;
+      list-style: none;
+    }
+    
+    .menu a {
+      text-decoration: none;
+      color: violet;
+      font-size: 17px;
+      font-weight: 500;
+      letter-spacing: .5px;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      margin-right: 13px;
+    }
+    
+    .menu a:hover {
+      color: white;
+    }
+  
+  .redes ul {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .redes ul li {
+      list-style: none;
+    }
+    
+    .redes ul li a {
+      text-decoration: none;
+      color: violet;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: .5px;
+  }
+  
+  .redes ul li a:hover {
+        color: violet;
+    }
+  
+
+@media (max-width: 768px) {
+  .container {
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+    background-image: linear-gradient(to right, #222 37%, #282828, #222);
+    border-bottom: 0.3px solid rgba(255, 255, 137, 0.393);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .8);
+    animation: top 2.85s .5s ease-out 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    top: -1000px;
+}
+   
+@keyframes top {
+    0% {
+      top: -1000px;
+    }
+    100% {
+      top: 0;
+    }
+  }  
+
+.logo {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.redes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .redes ul li {
+    list-style: none;
+    position: relative;
+    top: 4px;
+  }
+  
+  .redes ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 154);
+    font-size: 22px;
+}
+
+.redes ul li a:hover {
+      color: rgb(255, 255, 154);
+  }
+}

@@ -1,0 +1,104 @@
+.container {
+    background-color: #111;
+    padding: 70px 7%;
+}
+
+.container h3 {
+    font-size: 2.8vw;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.container p {
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    filter: drop-shadow(0px 0px 3px #000);
+}
+
+.redes {
+    margin-top: 30px;
+}
+
+.redes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .redes ul li {
+    list-style: none;
+  }
+  
+  .redes ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 115, 0.847);
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.redes ul li a:hover {
+      color: violet;
+  }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 4%;
+    }
+    
+    .container h3 {
+        font-size: 26px;
+        font-weight: 600;
+        color: violet;
+        filter: drop-shadow(0px 0px 3px #000);
+        margin: 0;
+    }
+    
+    .container p {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, .6);
+        margin: 0;
+        filter: drop-shadow(0px 0px 3px #000);
+    }
+    
+    .redes {
+        margin-top: 30px;
+    }
+    
+    .redes ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .redes ul li {
+        list-style: none;
+        position: relative;
+        left: -15px;
+        top: 10px;
+      }
+      
+      .redes ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 115, 0.847);
+        font-size: 26px;
+        font-weight: 500;
+        margin-right: 8px;
+    }
+    
+    .redes ul li a:hover {
+          color: violet;
+      }
+    
+    }    

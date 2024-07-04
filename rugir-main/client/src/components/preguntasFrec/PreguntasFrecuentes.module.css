@@ -1,0 +1,114 @@
+.container {
+   width: auto;
+   padding: 40px 7%;
+   padding-top: 0;
+   margin: 0;
+   background-color: #111;
+   overflow-x: hidden;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(256,256,256,.8);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .acordeon {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0;
+    background-color: #080808;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .pregunta {
+   width: 100%;
+   color: violet;
+   background-color: transparent;
+   padding: 0;
+   margin: 0;
+   border: none;
+   text-align: left;
+   font-size: 20px;
+   font-weight: 550;
+}
+
+.respuesta {
+    width: 86%;
+    color: rgba(256, 256,256,.8);
+    background-color: transparent;
+    padding: 0;
+    margin: 10px 0px;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    line-height: 21px;
+}
+  
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+       width: auto;
+       padding: 40px 4%;
+       padding-top: 0;
+       margin: 0;
+       background-color: #111;
+       overflow-x: hidden;
+      }
+      
+      .titulo {
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(256,256,256,.8);
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      
+      .acordeon {
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        margin: 0;
+        background-color: #080808;
+        margin-bottom: 10px;
+        border-radius: 4px;
+      }
+      
+      .pregunta {
+       width: 100%;
+       color: violet;
+       background-color: transparent;
+       padding: 0;
+       margin: 0;
+       border: none;
+       text-align: left;
+       font-size: 18px;
+       font-weight: 550;
+    }
+    
+    .respuesta {
+        width: 86%;
+        color: rgba(256, 256,256,.8);
+        background-color: transparent;
+        padding: 0;
+        margin: 10px 0px;
+        border: none;
+        text-align: left;
+        font-size: 18px;
+        line-height: 21px;
+    }
+      
+}

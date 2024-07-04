@@ -1,0 +1,11 @@
+.container {
+    background-color: #111;
+    padding: 10px 0px;
+    border-top: .3px solid rgba(256,256,256,.1);
+}
+
+.container p {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(256,256,256,.7);
+}

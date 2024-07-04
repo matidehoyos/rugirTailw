@@ -1,0 +1,380 @@
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flotmovil {
+    display: none;
+}
+
+.flotante {
+    width: auto;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    border-radius: 10px;
+    background-color: #111;
+    z-index: 2000;
+    padding: 5px 10px;
+    padding-bottom: 13px;
+}
+
+.flotante:hover {
+    border: none;
+}
+
+.flotante a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.flotante a:hover {
+    color: #fff;
+}
+
+.what {
+    font-size: 28px;
+    color: green;
+    position: relative;
+    top: 5px;
+}
+
+.subcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 154);
+    padding: 0;
+}
+
+.caja {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7%;
+}
+
+.first {
+    width: 60%;
+}
+
+
+.titular {
+    width: auto;
+    padding: 120px 0px;
+    padding-bottom: 140px;
+    z-index: 100;
+}
+
+.titulo {
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 76%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: rgb(42, 42, 42);
+    text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
+    filter: drop-shadow(0px 0px 10px rgba(238, 130, 238, 0.567));
+}
+
+.amano {
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 70%;
+    margin: 0;
+    padding: 10px 0px;
+    padding-top: 20px;
+    color: rgb(244, 89, 244);
+    text-align: left;
+    filter: drop-shadow(0px 0px 10px #fff);
+    text-shadow: 1.3px 1.3px 0 #333333, -1.3px -1.3px 0 #333333, 1.3px -1.3px 0 #333333, -1.3px 1.3px 0 #333333;
+}
+
+.personalizados {
+    width: auto;
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.simp {
+    display: none;
+}
+
+.rac {
+    display: none;
+}
+
+.mov {
+    display: none;
+}
+
+.imagenes {
+    width: 40%;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.regalo {
+    background-color: #333;
+    margin: 0;
+    padding: 60px 7%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.regalo h4 {
+    font-size: 2.7vw;
+    font-weight: 700;
+    line-height: 90%;
+    text-shadow: 1px 1px 5px #000;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 146);
+    text-align: right;
+}
+
+.regalo img {
+    width: 24%;
+    filter: drop-shadow(70px 0px 30px #111);
+    position: relative;
+    animation: vibrar 0.1s ease-in infinite alternate;
+  }
+  
+  @keyframes vibrar {
+    0% {
+        transform: translateX(-3px);
+        ;
+    }
+    100% {
+        transform: translateX(3px);
+    }
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.flotante {
+    display: none;
+}
+
+.flotmovil {
+    display: block;
+    width: auto;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 50%;
+    background-color:#fff;
+    z-index: 2000;
+    padding: 5px 10px;
+    padding-bottom: 13px;
+    animation: opac 6s linear 1;
+    animation-fill-mode: forwards;
+}
+   
+@keyframes opac {
+    0% {
+      opacity: 0;
+    }
+    97% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }  
+
+.what {
+    font-size: 30px;
+    color: green;
+}
+
+.subcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 114);
+    background-size: contain;
+    padding: 0;
+}
+
+.caja {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4%;
+    padding-bottom: 30px;
+}
+
+.first {
+    width: 100%;
+}
+
+
+.titular {
+    width: auto;
+    padding: 60px 0px;
+    padding-bottom: 0px;
+    z-index: 100;
+}
+
+.titulo {
+    font-size: 44px;
+    font-weight: 750;
+    line-height: 82%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #111;
+    text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
+    filter: none;
+    animation: izquierda 2.3s .3s linear 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+   
+@keyframes izquierda {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 0;
+    }
+  }  
+
+.mov {
+    display: block;
+    animation: derecha 2.3s .3s linear 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+   
+@keyframes derecha {
+    0% {
+      right: -100px;
+    }
+    100% {
+      right: 0;
+    }
+  }  
+
+.amano {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0;
+    margin: 0;
+    padding: 50px 0px;
+    padding-bottom: 10px;
+    color: violet;
+    text-align: left;
+    filter: none;
+    text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+    animation: top 2.9s .5s linear 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.personalizados {
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    animation: top 2.9s .5s linear 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+   
+@keyframes top {
+    0% {
+      top: 100px;
+    }
+    100% {
+      top: 0;
+    }
+  }  
+
+.imagenes {
+    display: none;
+}
+
+.regalo {
+    background-color: #333;
+    margin: 0;
+    padding: 60px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.regalo h4 {
+    width: 70%;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 94%;
+    text-shadow: 0px 0px 5px #000;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 146);
+    text-align: right;
+}
+
+.regalo img {
+    position: relative;
+    width: 50%;
+    filter: drop-shadow(22px 0px 20px #3e3e3e);
+    position: relative;
+    animation: vibrar 0.1s ease-in infinite alternate;
+  }
+  
+  @keyframes vibrar {
+    0% {
+        transform: translateX(-1px);
+        ;
+    }
+    100% {
+        transform: translateX(1px);
+    }
+  }
+}
