@@ -27,8 +27,9 @@
         flex-wrap: wrap;
         justify-content: center;
         width: auto;
-        margin-top: 80px;
+        margin-top: 0px;
         padding: 20px 0px;
+        padding-bottom: 80px;
         overflow-x: scroll;
       /*  background-image: radial-gradient(#333,#000); */
       background-color: transparent;
@@ -39,7 +40,7 @@
         object-fit: scale-down;
         filter: drop-shadow(5px 20x 0px #000);
         position: relative;
-        padding: 20px;
+        padding: 30px;
 }
     
 }
