@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <div className={style.container}>
           <div className={style.logo}>
-                <img src="./l.png" alt="Logo RugirMdq" />
+              <h2>RUGIR</h2>
           </div>
        {/*} <div className={style.menu}>
             <nav>
@@ -15,7 +15,7 @@ function NavBar() {
                       <li><a href='#contact'>Contacto</a> </li>
                     </ul>
               </nav>
-        </div> */}
+        </div> 
         <div className={style.redes}>
             <nav>
                     <ul>
@@ -24,6 +24,7 @@ function NavBar() {
                     </ul>
               </nav>
         </div>
+        */}
     </div>
   )
 }

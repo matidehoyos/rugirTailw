@@ -12,11 +12,11 @@ function Header() {
                     <div className={style.first}>
                         <div className={style.titular}>
                             <h1 className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
-                            <div className={style.mov}>
-                                <Imagenes />
-                            </div>
-                            <p className={style.amano}>HECHO A MANO</p>
+                            <p className={style.amano}>PRODUCTOS HECHOS A MANO</p>
                             <h4 className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
+                            <div className={style.mov}>
+                                
+                            </div>
                         </div>
                     </div>
                     <div className={style.imagenes}>

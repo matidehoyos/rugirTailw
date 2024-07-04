@@ -77,18 +77,19 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 92%;
+    width: auto;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    padding: 10px 4%;
-    background-image: linear-gradient(to right, #222 37%, #282828, #222);
-    border-bottom: 0.3px solid rgba(255, 255, 137, 0.393);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, .8);
+    padding: 7px 4%;
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+    border-bottom: none;
+    box-shadow: none;
     animation: top 2.85s .5s ease-out 1;
     animation-fill-mode: forwards;
-    position: relative;
+    position: absolute;
     top: -1000px;
 }
    
@@ -104,17 +105,17 @@
 .logo {
     width: auto;
     height: auto;
-    padding: 0px;
     display: flex;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.logo img {
-    width: 120px;
-    object-fit: cover;
-    object-position: center;
-    border-bottom-left-radius: 30%;
-    border-top-left-radius: 30%;
+.logo h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .redes ul {

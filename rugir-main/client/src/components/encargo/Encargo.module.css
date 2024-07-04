@@ -79,7 +79,7 @@
     .container {
         padding: 0px 4%;
         margin: 0;
-        background-color: #262626;
+        background-color: #bbb;
         width: auto;
         display: flex;
         flex-direction: column;
@@ -91,7 +91,7 @@
     }
     
     .tigre {
-        opacity: .08;
+        opacity: 1;
         object-fit: scale-down;
         border-bottom-left-radius: 20%;
         position: relative;
@@ -112,14 +112,14 @@
         font-size: 28px;
         font-weight: 600;
         line-height: 30px;
-        color: violet;
-        filter: drop-shadow(0px 0px 10px #222);
+        color: orange;
+        filter: drop-shadow(0px 0px 10px #848484);
         text-shadow: 1px 1px 0 #222, -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
     }
     
     .alf {
         font-size: 30px;
-        color: rgb(255, 255, 167);
+        color: orangered;
     }
     
     .enlace {
@@ -131,11 +131,11 @@
     
     .enlace a {
         font-size: 12px;
-        color: violet;
+        color: #111;
         padding: 8px 16px;
         border-radius: 4px;
-        border: 1px solid violet;
-        filter: drop-shadow(0px 40px 20px violet);
+        border: 1px solid #111;
+        filter: none;
         animation: shadow 10s linear infinite;
     }
     
@@ -156,7 +156,7 @@
     }
     
     .enlace a:hover {
-        color: violet;
+        color: #111;
         background-color: transparent;
-        border: 1px solid violet;
+        border: 1px solid #111;
     }

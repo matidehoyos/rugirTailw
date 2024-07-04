@@ -185,6 +185,11 @@
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background-image: url('./bg1.jpeg');
+    background-size: contain;
+    background-position: start;
+    background-repeat: no-repeat;
+    padding-top: 60px;
 }
 
 .flotante {
@@ -229,7 +234,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 255, 114);
+    background-color: transparent;
     background-size: contain;
     padding: 0;
 }
@@ -244,25 +249,26 @@
 
 .first {
     width: 100%;
+    min-height: 640px;
 }
 
 
 .titular {
     width: auto;
-    padding: 60px 0px;
+    padding: 40px 0px;
     padding-bottom: 0px;
     z-index: 100;
 }
 
 .titulo {
-    font-size: 44px;
-    font-weight: 750;
-    line-height: 82%;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 94%;
     margin: 0;
     padding: 0;
     text-align: left;
-    color: #111;
-    text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
+    color: #ddd;
+    text-shadow: 0.3px 0.3px 0 #fff, -0.3px -0.3px 0 #fff, 0.3px -0.3px 0 #fff, -0.3px 0.3px 0 #fff;
     filter: none;
     animation: izquierda 2.3s .3s linear 1;
     animation-fill-mode: forwards;
@@ -283,6 +289,9 @@
     animation: derecha 2.3s .3s linear 1;
     animation-fill-mode: forwards;
     position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
 }
    
 @keyframes derecha {
@@ -295,16 +304,16 @@
   }  
 
 .amano {
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 0;
     margin: 0;
-    padding: 50px 0px;
+    padding: 20px 0px;
     padding-bottom: 10px;
-    color: violet;
+    color: rgb(255, 180, 31);
     text-align: left;
     filter: none;
-    text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333;
+    text-shadow: NONE;
     animation: top 2.9s .5s linear 1;
     animation-fill-mode: forwards;
     position: relative;
@@ -313,13 +322,13 @@
 .personalizados {
     width: auto;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 34px;
     text-align: left;
     margin: 0;
     padding: 0;
-    color: #333;
-    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: #eee;
+    text-shadow: none;
     animation: top 2.9s .5s linear 1;
     animation-fill-mode: forwards;
     position: relative;
@@ -339,9 +348,9 @@
 }
 
 .regalo {
-    background-color: #333;
+    background-color: #fff;
     margin: 0;
-    padding: 60px 4%;
+    padding: 120px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,30 +360,30 @@
 .regalo h4 {
     width: 70%;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 94%;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 146);
+    color: #222;
     text-align: right;
 }
 
 .regalo img {
     position: relative;
     width: 50%;
-    filter: drop-shadow(22px 0px 20px #3e3e3e);
+    filter: drop-shadow(22px 0px 20px rgba(0,0,0,.5));
     position: relative;
-    animation: vibrar 0.1s ease-in infinite alternate;
+    animation: vibrar 2s ease-in infinite alternate;
   }
   
   @keyframes vibrar {
     0% {
-        transform: translateX(-1px);
+        transform: translateX(-3.5px);
         ;
     }
     100% {
-        transform: translateX(1px);
+        transform: translateX(3.5px);
     }
   }
 }
