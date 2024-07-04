@@ -1,6 +1,7 @@
 import { FaWhatsapp } from 'react-icons/fa'
 import Imagenes from '../imagenes/Imagenes'
 import style from './Header.module.css'
+import Alfombras from '../alfombras/Alfombras'
 
 function Header() {
     return (
@@ -15,7 +16,7 @@ function Header() {
                             <p className={style.amano}>PRODUCTOS HECHOS A MANO</p>
                             <h4 className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
                             <div className={style.mov}>
-                                
+                                <Alfombras />
                             </div>
                         </div>
                     </div>

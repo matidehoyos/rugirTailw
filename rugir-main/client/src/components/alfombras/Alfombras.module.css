@@ -27,15 +27,18 @@
         flex-wrap: wrap;
         justify-content: center;
         width: auto;
-        padding: 100px 0px;
+        margin-top: 100px;
+        padding: 20px 0px;
+        padding-bottom: 40px;
         overflow-x: scroll;
-        background-image: radial-gradient(#333,#000);
+      /*  background-image: radial-gradient(#333,#000); */
+      background-color: transparent;
     }
     
     .container img {
         width: 80%;
         object-fit: scale-down;
-        filter: drop-shadow(20px 0px 10px #000);
-    }
+        filter: drop-shadow(5px 10x 0px #000);
+}
     
 }
