@@ -247,15 +247,14 @@
 
 .first {
     width: 100%;
-    height: auto;
     background-color: transparent;
 }
 
 
 .titular {
     width: auto;
-    padding: 80px 4%;
-    padding-bottom: 80px;
+    padding: 70px 4%;
+    padding-bottom: 50px;
     z-index: 100;
     background-image: url('../../../public/titular.jpeg');
     background-position: bottom;
@@ -263,7 +262,7 @@
 }
 
 .titulo {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 94%;
     letter-spacing: 1px;
@@ -308,7 +307,7 @@
   }  
 
 .amano {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 0;
     margin: 0;
@@ -325,7 +324,7 @@
 
 .personalizados {
     width: auto;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     text-align: left;

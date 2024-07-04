@@ -28,19 +28,18 @@
         justify-content: center;
         width: auto;
         margin-top: 0px;
-        padding: 20px 0px;
-        padding-bottom: 80px;
+        padding: 10px 0;
         overflow-x: scroll;
       /*  background-image: radial-gradient(#333,#000); */
       background-color: transparent;
     }
     
     .container img {
-        width: 65%;
+        width: 58%;
         object-fit: scale-down;
         filter: drop-shadow(5px 20x 0px #000);
         position: relative;
-        padding: 30px;
+        padding: 40px;
 }
     
 }
