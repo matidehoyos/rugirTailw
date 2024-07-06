@@ -78,7 +78,7 @@
 @media (max-width: 768px) {
     .container {
         padding: 100px 0px;
-        padding-bottom: 70px;
+        padding-bottom: 45px;
         margin: 0;
         background-image: radial-gradient(rgb(255, 201, 101),#fff,#fff);
         width: auto;

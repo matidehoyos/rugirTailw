@@ -14,7 +14,7 @@ function Encargo() {
                 <img className={style.tigre} src="./lll.png" alt="logo" />
         </div> */ }
         
-        <div className={style.txt} data-aos="fade-up">
+        <div className={style.txt} data-aos="zoom-in">
              <p>    <span className={style.idea}>Contanos tu idea</span> <br/><span className={style.env}>o envianos la imagen</span>  
                     <br/> <span className={style.alfombra}>y la convertimos</span> <br/><span className={style.alf}>  EN ALFOMBRA </span>
             </p>

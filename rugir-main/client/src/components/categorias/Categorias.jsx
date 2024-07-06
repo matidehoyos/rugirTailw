@@ -28,7 +28,6 @@ function Categorias() {
             <span className={style.categoria}>ANIMALES</span>
             <span className={style.categoria}>ESCUDOS</span>
             <span className={style.categoria}>PERSONAJES</span>
-            <span className={style.categoria}>ETC</span>
         </div>
         <div className={style.cajaImg}>
             {

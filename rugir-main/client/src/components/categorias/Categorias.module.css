@@ -77,19 +77,20 @@
     }
 
     .categoria {
-        width: auto;
+        width: 24%;
         font-size: 14px;
         font-weight: 700;
         text-align: center;
-        padding: 4px 8px;
-        margin-right: 10px;
+        padding: 5px 0px;
+        margin-right: 8px;
         margin-bottom: 8px;
-        color: #111;
+        color: orange;
         filter: none;
         text-shadow: none;
         flex-shrink: 0;
-        background-color: #cdcdcd;
+        background-color: transparent;
         border-radius: 4px;
+        border: 1px solid orange;
     }
     
     
