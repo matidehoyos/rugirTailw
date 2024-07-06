@@ -40,25 +40,9 @@
 
 @media (max-width: 768px) {
     .container {
-        background-image: none;
+        background-image: linear-gradient(to bottom, orange,orange,orange, #fff);
         padding: 30px 4%;
         margin: 0;
-        animation: colorChange 3s infinite;
-}
-
-@keyframes colorChange {
-  25% {
-    background-color: rgb(94, 94, 94);
-  }
-  50% {
-    background-color: rgb(74, 74, 74);
-  }
-  75% {
-    background-color: rgb(54, 54, 54);
-  }
-  100% {
-    background-color: rgb(34, 34, 34);
-  }
 }
     
     
@@ -66,7 +50,7 @@
         margin: 0;
         font-size: 18px;
         font-weight: 700;
-        color: rgb(240,240,240);
+        color: rgb(256,256,256);
         filter: drop-shadow(0px 0px 5px #5555554d);
     }
     
@@ -82,7 +66,7 @@
         font-size: 16px;
         font-weight: 500;
         margin-top: 10px;
-        color: rgb(200,200,200);
+        color: rgb(240,240,240);
         filter: drop-shadow(0px 0px 5px #5555554d);
     }
     
