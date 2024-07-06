@@ -95,7 +95,6 @@
       }
       
       .redes ul li a {
-        width: auto;
         text-align: center;
         text-decoration: none;
         background-color: #222;
@@ -103,11 +102,12 @@
         font-size: 26px;
         margin: 0;
         margin-right: 10px;
-        padding: 6px 10px;
-        padding-top: 8px;
+        padding: 8px 12px;
+        padding-top: 10px;
         border-radius: 6px;
         position: relative;
         left: -20px;
+        border: 1px solid orange;
     }
     
     .redes ul li a:hover {
