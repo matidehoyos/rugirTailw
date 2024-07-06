@@ -1,57 +1,3 @@
-.container {
-    background-color: violet;
-    padding: 100px 7%;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.image {display: none;}
-
-.imag {
-    width: 50%;
-    background-image: url('../../../public/galgo.png');
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-}
-
-.caja {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    margin-left: 30px;
-}
-
-.caja h3 {
-    text-align: left;
-    font-size: 2.5vw;
-    font-weight: 700;
-    color: #333;
-}
-
-.caja p {
-    width: 100%;
-    font-size: 1.6vw;
-    font-weight: 500;
-    line-height: 105%;
-    text-align: left;
-    color: #222;
-    letter-spacing: .6px;
-}
-
-.caja p span {
-    font-weight: 800;
-}
-
-
-
-
-
-
-@media (max-width: 768px) {
     .container {
         height: auto;
         padding: 100px 0px;
@@ -136,5 +82,63 @@
         font-weight: 800;
         color:  #acacac;
     }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.container {
+    background-color: violet;
+    padding: 100px 7%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image {display: none;}
+
+.imag {
+    width: 50%;
+    background-image: url('../../../public/galgo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.caja {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.caja h3 {
+    text-align: left;
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #333;
+}
+
+.caja p {
+    width: 100%;
+    font-size: 1.6vw;
+    font-weight: 500;
+    line-height: 105%;
+    text-align: left;
+    color: #222;
+    letter-spacing: .6px;
+}
+
+.caja p span {
+    font-weight: 800;
+}
 }
 
