@@ -9,10 +9,10 @@ function About() {
   }, []);
 
   const images = [
-    './g1.png',
-    './g2.png',
-    './g5.png',
-    './g4.png',
+    './g1.jpeg',
+    './g2.jpeg',
+    './g3.jpeg',
+    './g4.jpeg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
