@@ -41,7 +41,7 @@
 @media (max-width: 768px) {
     .container {
         background-image: none;
-        background-color: rgb(255, 190, 70);
+        background-color: #333;
         padding: 30px 4%;
         margin: 0;
 }
@@ -51,8 +51,8 @@
         margin: 0;
         font-size: 18px;
         font-weight: 700;
-        color: rgb(256,256,256);
-        filter: drop-shadow(0px 0px 5px #5555554d);
+        color: #868686;
+        filter: none;
     }
     
     .truk {
@@ -60,18 +60,20 @@
         margin-right: 8px;
         position: relative;
         top: 2px;
+        color: #868686;
     }
-
+    
     .retiro {
         margin: 0;
         font-size: 16px;
         font-weight: 500;
         margin-top: 10px;
-        color: rgb(240,240,240);
-        filter: drop-shadow(0px 0px 5px #5555554d);
+        color: #868686;
+        filter: none;
     }
     
     .ubi {
+        color: #868686;
         font-size: 12px;
         margin-right: 8px;
     }
