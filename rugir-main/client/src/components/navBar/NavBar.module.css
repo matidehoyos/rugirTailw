@@ -75,6 +75,9 @@
     }
   
 
+
+
+
 @media (max-width: 768px) {
   .container {
     width: auto;
@@ -87,20 +90,8 @@
     background-image: none;
     border-bottom: none;
     box-shadow: none;
-    animation: top 2.85s .5s ease-out 1;
-    animation-fill-mode: forwards;
     position: absolute;
-    top: -1000px;
 }
-   
-@keyframes top {
-    0% {
-      top: -1000px;
-    }
-    100% {
-      top: 0;
-    }
-  }  
 
 .logo {
     width: auto;

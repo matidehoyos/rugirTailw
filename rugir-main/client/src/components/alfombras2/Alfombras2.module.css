@@ -1,0 +1,44 @@
+.container {
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        padding: 30px 7%;
+        padding-bottom: 100px;
+        background-color: #111;
+        overflow-x: scroll;
+    }
+    
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    
+    .container img {
+        width: 20%;
+        object-fit: scale-down;
+        filter: drop-shadow(20px 0px 20px #000);
+        margin-right: 30px;
+    }
+
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 500px;
+        margin-top: 0;
+        padding: 0;
+        background-image: url('../../../public/bg4.jpeg'); 
+        background-size: cover;
+    }
+    
+    .container img {
+        width: 58%;
+        object-fit: scale-down;
+        filter: drop-shadow(5px 20x 0px #000);
+}
+    
+}

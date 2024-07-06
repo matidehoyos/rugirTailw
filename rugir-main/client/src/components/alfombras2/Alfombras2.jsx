@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import style from './Alfombras.module.css';
+import style from './Alfombras2.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  './simpsom.png',
-  './aldo.png',
-  './tx.png',
+  './serie.png',
+  './diego.png',
+  './racing.png',
+  './pika.png',
 ];
 
-function Alfombras() {
+function Alfombras2() {
   useEffect(() => {
     AOS.init(); 
   }, []);
@@ -25,7 +26,7 @@ function Alfombras() {
   }, []);
 
   return (
-    <div className={style.container} data-aos="fade-up-left">
+    <div data-aos="flip-left" className={style.container}>
       <img
         src={images[currentIndex]}
         className={style.image}
@@ -35,4 +36,4 @@ function Alfombras() {
   );
 }
 
-export default Alfombras;
+export default Alfombras2;

@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/about/About'
 import Alfombras from './components/alfombras/Alfombras'
+import Alfombras2 from './components/alfombras2/Alfombras2'
 import Categorias from './components/categorias/Categorias'
 import Contact from './components/contact/Contact'
 import Encargo from './components/encargo/Encargo'
@@ -18,7 +19,7 @@ function App() {
     <>
       <NavBar />
       <Header />
-      <Alfombras />
+      <Alfombras2 />
       <Encargo />
       <Categorias />
       <Ubicacion />

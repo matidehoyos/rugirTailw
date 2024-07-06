@@ -19,9 +19,9 @@ function Header() {
                 <div className={style.caja}>
                     <div className={style.first}>
                         <div className={style.titular}>
-                            <h1 className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
-                            <p className={style.amano}>PRODUCTOS HECHOS A MANO</p>
-                            <h4 className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
+                            <h1 data-aos="zoom-in-right" className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
+                            <p data-aos="zoom-in-right" className={style.amano}>PRODUCTOS HECHOS A MANO</p>
+                            <h4 data-aos="zoom-in-right" className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
                         </div>
                         <div className={style.mov}>
                             <Alfombras />
@@ -33,7 +33,7 @@ function Header() {
                 </div>
                 <div className={style.regalo}>
                     <h4 data-aos="zoom-in">EL REGALO PERFECTO <br />NO EXIS...</h4>
-                    <img src="./pika.png" alt="alfombra pikachu" />
+                    <img data-aos="zoom-out-left" src="./pika.png" alt="alfombra pikachu" />
                 </div>
             </div>
             </div>

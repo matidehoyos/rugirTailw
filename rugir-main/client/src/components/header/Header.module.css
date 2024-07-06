@@ -273,39 +273,17 @@
     color: #ddd;
     text-shadow: 0.3px 0.3px 0 #fff, -0.3px -0.3px 0 #fff, 0.3px -0.3px 0 #fff, -0.3px 0.3px 0 #fff;
     filter: none;
-    animation: izquierda 2.3s .3s linear 1;
-    animation-fill-mode: forwards;
     position: relative;
 }
-   
-@keyframes izquierda {
-    0% {
-      left: -100px;
-    }
-    100% {
-      left: 0;
-    }
-  }  
 
 .mov {
     display: block;
-    animation: derecha 2.3s .3s linear 1;
-    animation-fill-mode: forwards;
     position: relative;
     margin: 0;
     padding: 0;
     background-image: url('../../../public/bg3.jpeg');
     background-size: cover;
 }
-   
-@keyframes derecha {
-    0% {
-      right: -100px;
-    }
-    100% {
-      right: 0;
-    }
-  }  
 
 .amano {
     font-size: 18px;
@@ -317,9 +295,7 @@
     color: rgb(255, 180, 31);
     text-align: left;
     filter: none;
-    text-shadow: NONE;
-    animation: top 2.9s .5s linear 1;
-    animation-fill-mode: forwards;
+    text-shadow: none;
     position: relative;
 }
 
@@ -333,19 +309,9 @@
     padding: 0;
     color: #eee;
     text-shadow: none;
-    animation: top 2.9s .5s linear 1;
-    animation-fill-mode: forwards;
     position: relative;
 }
    
-@keyframes top {
-    0% {
-      top: 100px;
-    }
-    100% {
-      top: 0;
-    }
-  }  
 
 .imagenes {
     display: none;
@@ -378,16 +344,5 @@
     width: 50%;
     filter: drop-shadow(22px 0px 20px rgba(0,0,0,.5));
     position: relative;
-    animation: vibrar 2s ease-in infinite alternate;
-  }
-  
-  @keyframes vibrar {
-    0% {
-        transform: translateX(-3.5px);
-        ;
-    }
-    100% {
-        transform: translateX(3.5px);
-    }
   }
 }

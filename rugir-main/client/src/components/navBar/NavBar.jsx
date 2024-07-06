@@ -1,11 +1,18 @@
 import style from './NavBar.module.css'
 import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function NavBar() {
+  useEffect(() => {
+    AOS.init(); 
+  }, []);
+
   return (
     <div className={style.container}>
           <div className={style.logo}>
-              <h2>RUGIR</h2>
+              <h2 data-aos="fade-down">RUGIR</h2>
           </div>
        {/*} <div className={style.menu}>
             <nav>
