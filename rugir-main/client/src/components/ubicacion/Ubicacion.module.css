@@ -43,30 +43,21 @@
         background-image: none;
         padding: 30px 4%;
         margin: 0;
-        animation: colorChange 5s infinite alternate;
+        animation: colorChange 5s infinite;
 }
 
 @keyframes colorChange {
-  0% {
-    background-color: yellow;
+  25% {
+    background-color: gray;
   }
-  20% {
-    background-color: orange;
+  50% {
+    background-color: rgb(94, 94, 94);
   }
-  40% {
-    background-color: orangered;
-  }
-  60% {
-    background-color: red;
-  }
-  80% {
-    background-color: rgb(203, 0, 203);
-  }
-  90% {
-    background-color: blue;
+  75% {
+    background-color: rgb(67, 67, 67);
   }
   100% {
-    background-color: green;
+    background-color: rgb(41, 41, 41);
   }
 }
     

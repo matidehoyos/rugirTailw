@@ -21,11 +21,11 @@ function App() {
       <Header />
       <Alfombras2 />
       <Encargo />
-      <Ubicacion />
       <Categorias />
-      <About />
+      <Ubicacion />
       <Contact />
       <PreguntasFrecuentes />
+      <About />
       <Footer />
     </>
   )

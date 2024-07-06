@@ -132,12 +132,12 @@
         position: relative;
         top: 5px;
         color: #222;
-        animation: colorChange 5s infinite alternate;
+        animation: colorChange 5s infinite;
 }
 
 @keyframes colorChange {
   0% {
-    color: yellow;
+    color: orange;
   }
   20% {
     color: orange;
@@ -146,16 +146,16 @@
     color: orangered;
   }
   60% {
-    color: red;
+    color: orangered;
   }
   80% {
-    color: rgb(203, 0, 203);
+    color: red;
   }
   90% {
-    color: blue;
+    color: rgb(80, 0, 80);
   }
   100% {
-    color: green;
+    color: rgb(80, 0, 80);
   }
 }
     
