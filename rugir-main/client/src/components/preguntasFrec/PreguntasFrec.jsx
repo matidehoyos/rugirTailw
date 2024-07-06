@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
-import style from './PreguntasFrecuentes.module.css'; // Tu archivo CSS
+import React, { useEffect, useState } from 'react';
+import style from './PreguntasFrecuentes.module.css'; 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const PreguntasFrecuentes = () => {
+  useEffect(() => {
+    AOS.init(); 
+  }, []);
+
   const [preguntas, setPreguntas] = useState([
     {
       id: 1,
@@ -57,10 +63,11 @@ const PreguntasFrecuentes = () => {
 
   return (
     <div className={style.container}>
-      <h4 className={style.titulo}>Preguntas frecuentes</h4>
+      <h4 data-aos="fade-up-right" className={style.titulo} >Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
-        <div key={pregunta.id} className={style.acordeon}>
-          <button
+        <div key={pregunta.id} className={style.acordeon} data-aos="fade-up-right">
+          <button 
+            
             className={style.pregunta}
             onClick={() => toggleRespuesta(pregunta.id)}
           >
