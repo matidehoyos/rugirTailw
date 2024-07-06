@@ -205,6 +205,7 @@
     padding-bottom: 13px;
     animation: opac 6s linear 1;
     animation-fill-mode: forwards;
+    border: 1px solid green;
 }
    
 @keyframes opac {
