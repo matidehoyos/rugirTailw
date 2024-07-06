@@ -14,12 +14,8 @@ function Contact() {
         <h3 data-aos="fade-up">Envianos tu consulta</h3>
         <p data-aos="fade-up">Pedí tu presupuesto através de un mensaje directo, responderemos a la brevedad...</p>
         <div className={style.redes}>
-            <nav>
-                    <ul>
-                      <li data-aos="fade-up-right"><a target="_blank" href='https://www.instagram.com/rugirmdq/'><FaInstagram /></a> </li>
-                      <li data-aos="fade-up-left"><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a></li>
-                    </ul>
-              </nav>
+            <button data-aos="fade-up-right"><a target="_blank" href='https://www.instagram.com/rugirmdq/'><FaInstagram className={style.icon}/>Mensaje directo</a> </button>
+            <button data-aos="fade-up-left"><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.icon}/>WhatsApp</a></button>
         </div>
     </div>
   )
