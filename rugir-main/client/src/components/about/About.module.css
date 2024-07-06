@@ -77,12 +77,13 @@
         flex-wrap: nowrap;
         overflow: hidden;
     }
+
     .cajaImg img {
         width: 100%;
         object-fit: cover;
         overflow: hidden;
         border-radius: 6px;
-        border: 1px solid #333;
+        border: 1px solid #a5a5a5;
     }
     
     .imag {
@@ -95,10 +96,10 @@
         margin: 0;
     }
 
-    .imag img {
+    .tigre {
         width: 70%;
         object-fit: scale-down;
-        opacity: .1;
+        opacity: .1 !important;
         margin-left: 4%;
     }
     

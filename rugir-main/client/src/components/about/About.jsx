@@ -29,7 +29,7 @@ function About() {
   return (
     <div className={style.container} id='about'>
             <div className={style.imag}>
-                <img data-aos="fade-up-right" src="./lll.png" alt="logo" />
+                <img data-aos="fade-up-right" src="./lll.png" alt="logo" className={style.tigre} />
             </div>
             <div className={style.caja}>
                 <h3>Sobre nosotros</h3>
