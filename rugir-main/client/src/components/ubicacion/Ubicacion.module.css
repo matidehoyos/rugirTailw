@@ -40,7 +40,8 @@
 
 @media (max-width: 768px) {
     .container {
-        background-image: linear-gradient(to bottom, #333, #fff);
+        background-image: none;
+        background-color: orange;
         padding: 30px 4%;
         margin: 0;
 }

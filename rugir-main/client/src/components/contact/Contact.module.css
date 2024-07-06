@@ -70,12 +70,12 @@
     }
     
     .container p {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
-        line-height: 22px;
+        line-height: 28px;
         color: #222;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 15px;
         filter: none;
     }
     
@@ -83,7 +83,7 @@
         width: auto;
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 0px;
     }
       
       .redes button {
@@ -118,7 +118,7 @@
         padding: 0;
         margin: 0;
         margin-right: 4px;
-        color: #111;
+        color: orange;
     }
     
     
