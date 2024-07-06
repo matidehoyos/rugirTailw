@@ -24,8 +24,8 @@ function App() {
       <Categorias />
       <Ubicacion />
       <Contact />
-      <PreguntasFrecuentes />
       <About />
+      <PreguntasFrecuentes />
       <Footer />
     </>
   )

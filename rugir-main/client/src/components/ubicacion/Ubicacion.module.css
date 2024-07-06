@@ -41,7 +41,7 @@
 @media (max-width: 768px) {
     .container {
         background-image: none;
-        background-color: orange;
+        background-color: rgb(255, 190, 70);
         padding: 30px 4%;
         margin: 0;
 }

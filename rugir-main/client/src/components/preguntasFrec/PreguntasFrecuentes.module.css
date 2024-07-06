@@ -61,8 +61,7 @@
     .container {
         display: block;
        width: auto;
-       padding: 40px 4%;
-       padding-top: 0;
+       padding: 80px 4%;
        margin: 0;
        background-color: #fff;
        overflow-x: hidden;
