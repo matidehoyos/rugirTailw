@@ -16,7 +16,6 @@ function App() {
 
   return (
     <>
-      <Intro />
       <NavBar />
       <Header />
       <Alfombras />
