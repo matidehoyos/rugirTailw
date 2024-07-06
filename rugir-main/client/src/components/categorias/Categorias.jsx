@@ -20,14 +20,14 @@ function Categorias() {
     <div className={style.container}>
         <div className={style.caja} data-aos="fade-up">
             <span className={style.categoria}>DEPORTES</span>
+            <span className={style.categoria}>NOMBRES</span>
+            <span className={style.categoria}>MUSICA</span>
             <span className={style.categoria}>CINE</span>
             <span className={style.categoria}>AUTOS</span>
+            <span className={style.categoria}>FRASES</span>
             <span className={style.categoria}>ANIMALES</span>
             <span className={style.categoria}>ESCUDOS</span>
             <span className={style.categoria}>PERSONAJES</span>
-            <span className={style.categoria}>FRASES</span>
-            <span className={style.categoria}>NOMBRES</span>
-            <span className={style.categoria}>MUSICA</span>
             <span className={style.categoria}>ETC</span>
         </div>
         <div className={style.cajaImg}>

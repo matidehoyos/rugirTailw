@@ -53,27 +53,33 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 60px 4%;
+        padding: 100px 4%;
+        background-color: #fff;
     }
     
     .container h3 {
-        font-size: 26px;
-        font-weight: 600;
-        color: violet;
-        filter: drop-shadow(0px 0px 3px #000);
+        font-size: 24px;
+        font-weight: 700;
+        color: #111;
+        filter: none;
         margin: 0;
     }
     
     .container p {
         font-size: 18px;
-        font-weight: 400;
-        color: rgba(255, 255, 255, .6);
+        font-weight: 700;
+        line-height: 20px;
+        color: #333;
         margin: 0;
-        filter: drop-shadow(0px 0px 3px #000);
+        margin-top: 10px;
+        filter: none;
     }
     
     .redes {
-        margin-top: 30px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     
     .redes ul {
@@ -84,21 +90,26 @@
       
       .redes ul li {
         list-style: none;
-        position: relative;
-        left: -15px;
-        top: 10px;
+        margin: 0;
+        padding: 0;
       }
       
       .redes ul li a {
         text-decoration: none;
-        color: rgba(255, 255, 115, 0.847);
+        background-color: #222;
+        color: #fff;
         font-size: 26px;
-        font-weight: 500;
-        margin-right: 8px;
+        margin: 0;
+        margin-right: 10px;
+        padding: 6px 10px;
+        padding-top: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: -20px;
     }
     
     .redes ul li a:hover {
-          color: violet;
+          color: #fff;
       }
     
     }    

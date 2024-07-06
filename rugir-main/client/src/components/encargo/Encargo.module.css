@@ -78,7 +78,7 @@
 @media (max-width: 768px) {
     .container {
         padding: 100px 0px;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
         margin: 0;
         background-color: #fff;
         width: auto;
@@ -129,7 +129,6 @@
     
     .alf {
         font-size: 22px;
-        font-weight: 800;
         position: relative;
         top: 5px;
         color: #222;

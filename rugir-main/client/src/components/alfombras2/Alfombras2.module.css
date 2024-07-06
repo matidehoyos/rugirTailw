@@ -28,15 +28,15 @@
         justify-content: center;
         align-items: center;
         width: auto;
-        height: 500px;
+        height: 40vh;
         margin-top: 0;
-        padding: 0 30px;
+        padding: 10px 30px;
         background-image: url('../../../public/bg4.jpeg'); 
         background-size: cover;
     }
     
     .container img {
-        width: 78%;
+        width: 200px;
         object-fit: scale-down;
         filter: drop-shadow(5px 20x 0px #000);
 }

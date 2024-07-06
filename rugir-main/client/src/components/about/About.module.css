@@ -54,8 +54,7 @@
 @media (max-width: 768px) {
     .container {
         height: auto;
-        padding: 50px 0px;
-        padding-bottom: 60px;
+        padding: 100px 0px;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -63,7 +62,7 @@
         align-items: start;
         overflow: hidden;
         box-sizing: border-box;
-        background-color: #333;
+        background-color: #2a2a2a;
     }
     
     .imag {
@@ -77,8 +76,10 @@
     }
 
     .imag img {
-        width: 60%;
-        opacity: .6;
+        width: 90%;
+        object-fit: scale-down;
+        opacity: .5;
+        margin-left: 4%;
     }
     
     .caja {
@@ -103,7 +104,7 @@
         line-height: 23px;
         text-align: left;
         color: #eee;
-        letter-spacing: .8px;
+        letter-spacing: .7px;
         margin: 0;
         margin-top: 30px;
         padding: 0;
