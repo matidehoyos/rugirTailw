@@ -1,6 +1,12 @@
 import style from './Categorias.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Categorias() {
+  useEffect(() => {
+    AOS.init(); 
+  }, []);
 
     const images = [
         './g1.png',
@@ -12,7 +18,7 @@ function Categorias() {
 
   return (
     <div className={style.container}>
-        <div className={style.caja}>
+        <div className={style.caja} data-aos="fade-up">
             <span className={style.categoria}>DEPORTES</span>
             <span className={style.categoria}>CINE</span>
             <span className={style.categoria}>AUTOS</span>
@@ -25,7 +31,7 @@ function Categorias() {
         <div className={style.cajaImg}>
             {
                 images.map((image, index) => (
-                    <img key={index} src={image} className={style.image} alt="Product" />
+                    <img data-aos="zoom-in" key={index} src={image} className={style.image} alt="Product" />
                   ))}
         </div>
     </div>

@@ -77,9 +77,10 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 0;
+        padding: 100px 0px;
+        padding-bottom: 40px;
         margin: 0;
-        background-color: #fff;
+        background-color: rgb(242, 242, 242);
         width: auto;
         display: flex;
         flex-direction: column-reverse;
@@ -108,31 +109,56 @@
     .txt {
         width: 100%;
         margin: 0;
-        padding: 100px 0;
+        padding: 0px 0;
     }
     
     .container p {
         width: 100%;
         margin: 0;
         padding: 0;
-        padding-left: 4%;
-        text-align: left;
-        font-size: 26px;
+        text-align: center;
+        font-size: 22px;
         font-weight: 800;
         line-height: 30px;
         letter-spacing: -1px;
-        color: #222;
+        color: #333;
         filter: drop-shadow(0px 0px 10px transparent);
         text-shadow: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .alf {
-        font-size: 28px;
-        font-weight: 550;
-        color: rgb(255, 145, 0);
-        padding-top: 25px;
-    }
+        font-size: 22px;
+        font-weight: 800;
+        position: relative;
+        top: 5px;
+        color: #222;
+        animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: yellow;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: orangered;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: rgb(203, 0, 203);
+  }
+  90% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
     
     .enlace {
         margin-top: 6%;

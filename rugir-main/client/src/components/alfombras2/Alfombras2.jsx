@@ -26,7 +26,7 @@ function Alfombras2() {
   }, []);
 
   return (
-    <div data-aos="flip-left" className={style.container}>
+    <div data-aos="zoom-in" className={style.container}>
       <img
         src={images[currentIndex]}
         className={style.image}

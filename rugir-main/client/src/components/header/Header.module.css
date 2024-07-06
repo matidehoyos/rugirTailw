@@ -344,5 +344,16 @@
     width: 50%;
     filter: drop-shadow(22px 0px 20px rgba(0,0,0,.5));
     position: relative;
+    animation: vibrar 1s ease-in infinite alternate;
+}
+
+@keyframes vibrar {
+  0% {
+      transform: translateX(-3px);
+      ;
   }
+  100% {
+      transform: translateX(3px);
+  }
+}
 }
