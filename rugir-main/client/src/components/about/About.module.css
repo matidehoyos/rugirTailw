@@ -78,7 +78,9 @@
         overflow: hidden;
     }
     .cajaImg img {
+        width: 100%;
         object-fit: cover;
+        overflow: hidden;
     }
     
     .imag {
