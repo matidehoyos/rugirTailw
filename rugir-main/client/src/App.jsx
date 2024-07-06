@@ -21,8 +21,8 @@ function App() {
       <Header />
       <Alfombras2 />
       <Encargo />
-      <Categorias />
       <Ubicacion />
+      <Categorias />
       <About />
       <Contact />
       <PreguntasFrecuentes />

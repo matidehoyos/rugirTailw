@@ -30,13 +30,13 @@
         width: auto;
         height: 500px;
         margin-top: 0;
-        padding: 0;
+        padding: 0 30px;
         background-image: url('../../../public/bg4.jpeg'); 
         background-size: cover;
     }
     
     .container img {
-        width: 58%;
+        width: 78%;
         object-fit: scale-down;
         filter: drop-shadow(5px 20x 0px #000);
 }

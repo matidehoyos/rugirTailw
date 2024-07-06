@@ -40,9 +40,9 @@
 
 @media (max-width: 768px) {
     .container {
-        background-color: #eee;
+        background-color: #f3f3f3;
         background-image: none;
-        padding: 60px 4%;
+        padding: 20px 4%;
         margin: 0;
     }
     

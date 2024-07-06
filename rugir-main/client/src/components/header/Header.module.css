@@ -280,7 +280,7 @@
     display: block;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-image: url('../../../public/bg3.jpeg');
     background-size: cover;
 }

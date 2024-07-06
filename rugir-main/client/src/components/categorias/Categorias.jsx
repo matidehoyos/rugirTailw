@@ -27,6 +27,8 @@ function Categorias() {
             <span className={style.categoria}>PERSONAJES</span>
             <span className={style.categoria}>FRASES</span>
             <span className={style.categoria}>NOMBRES</span>
+            <span className={style.categoria}>MUSICA</span>
+            <span className={style.categoria}>ETC</span>
         </div>
         <div className={style.cajaImg}>
             {
