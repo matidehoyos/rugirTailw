@@ -97,7 +97,7 @@
       .redes ul li a {
         text-decoration: none;
         background-color: #222;
-        color: #fff;
+        color: orange;
         font-size: 26px;
         margin: 0;
         margin-right: 10px;
@@ -109,7 +109,7 @@
     }
     
     .redes ul li a:hover {
-          color: #fff;
+          color: orange;
       }
     
     }    
