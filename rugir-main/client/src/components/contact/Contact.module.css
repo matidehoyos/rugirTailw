@@ -89,20 +89,21 @@
       .redes button {
         width: auto;
         text-align: center;
-        background-color: #303030;
+        background-color: #fffffff1;
         margin: 0;
         margin-bottom: 7px;
-        padding: 5spx 10px;
-        padding-bottom: 6px;
+        padding: 5px 10px;
+        padding-bottom: 10px;
         border-radius: 6px;
-        border: 1px solid orange;
+        border: none;
 
     }
     
     .redes button a {
         text-decoration: none;
-        color: #fff;
+        color: #222;
         font-size: 14px;
+        font-weight: 500;
     }
 
     .icon {
