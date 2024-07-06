@@ -253,13 +253,29 @@
 
 .titular {
     width: auto;
-    padding: 70px 4%;
-    padding-bottom: 50px;
+    padding: 0px 4%;
     z-index: 100;
     background-image: url('../../../public/bg5.jpeg');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+    padding-bottom: 40px;
+}
+
+.logo h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .titulo {
