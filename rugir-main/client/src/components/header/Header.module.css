@@ -20,24 +20,10 @@
     border-radius: 50%;
     background-color:#fff;
     z-index: 2000;
-    padding: 5px 10px;
-    padding-bottom: 13px;
-    animation: opac 6s linear 1;
+    padding: 8px 10px;
     animation-fill-mode: forwards;
     border: 1px solid green;
 }
-   
-@keyframes opac {
-    0% {
-      opacity: 0;
-    }
-    97% {
-        opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }  
 
 .what {
     font-size: 30px;
