@@ -5,6 +5,7 @@ import Alfombras from '../alfombras/Alfombras'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 
 function Header() {
     useEffect(() => {
@@ -15,7 +16,6 @@ function Header() {
         <div className={style.container}>
             <button className={style.flotante}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer">Hacenos tu consulta <FaWhatsapp className={style.what}/></a></button>
             <button className={style.flotmovil}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.what}/></a></button>
-            <div className={style.subcontainer}>
                 <div className={style.caja}>
                     <div className={style.first}>
                         <div className={style.titular}>
@@ -29,16 +29,18 @@ function Header() {
                         <div className={style.mov}>
                             <Alfombras />
                         </div>
-                    </div>
-                    <div className={style.imagenes}>
-                        <Imagenes />
+                        <div className={style.tablet}>
+                            <AlfombrasTablet />
+                        </div>
+                        <div className={style.imagenes}>
+                            <Imagenes />
+                        </div>
                     </div>
                 </div>
                 <div className={style.regalo}>
                     <h4 data-aos="zoom-in">EL REGALO PERFECTO <br />NO EXIS...</h4>
                     <img data-aos="zoom-out-left" src="./pika.png" alt="alfombra pikachu" />
                 </div>
-            </div>
             </div>
     )
 }

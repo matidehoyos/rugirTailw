@@ -30,17 +30,6 @@
     color: green;
 }
 
-.subcontainer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: transparent;
-    background-size: contain;
-    padding: 0;
-}
-
 .caja {
     width: auto;
     height: auto;
@@ -110,6 +99,10 @@
     background-size: cover;
 }
 
+.tablet {
+    display: none;
+}
+
 .amano {
     font-size: 18px;
     font-weight: 500;
@@ -162,6 +155,7 @@
     padding: 0;
     color: #222;
     text-align: right;
+    background-image: radial-gradient(orange,orange,#fff,#fff);
 }
 
 .regalo img {
@@ -192,14 +186,94 @@
 
 
 
+@media (min-width: 620px) and (max-width: 1024px) {
+
+  
+    .flotmovil {
+        right: 20px;
+        padding: 10px 12px;
+    }
+    
+    .what {
+        font-size: 38px;
+    }
+    
+    .titular {
+        padding: 0px 30px;
+        padding-bottom: 110px;
+        background-image: url('../../../public/bgtablet.jpeg');
+    }
+    
+    .logo {
+        padding-bottom: 40px;
+    }
+    
+    .logo h2 {
+        font-size: 24px;
+        letter-spacing: .7px;
+        font-weight: 500;
+        text-shadow: 0px 0px 7px #000;
+    }
+    
+    .titulo {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 98%;
+    }
+    
+    .mov {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        padding-bottom: 30px;
+        background-image: url('../../../public/bg3.jpeg');
+        background-size: cover;
+    }
+    
+    .imagenes {
+        display: none;
+    }
+
+    .amano {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 25px 0px;
+        padding-bottom: 12px;
+    }
+    
+    .personalizados {
+        font-size: 18px;
+        font-weight: 400;
+        color: #a8a8a8;
+    }
+       
+    .regalo {
+        padding: 100px 4%;
+    }
+    
+    .regalo h4 {
+        width: 50%;
+        font-size: 36px;
+        line-height: 100%;
+    }
+    
+    .regalo img {
+        left: -20px;
+        width: 40%;
+    }
+}
 
 
 
 
 
 
-
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
  .container {
     width: 100%;
     height: auto;

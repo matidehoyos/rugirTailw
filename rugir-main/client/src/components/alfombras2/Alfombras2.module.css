@@ -26,28 +26,21 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 620px) and (max-width: 1024px) {
    
     .container {
-        display: flex;
-        flex-wrap: nowrap;
-        width: auto;
-        padding: 30px 7%;
-        padding-bottom: 100px;
-        background-color: #111;
-        overflow-x: scroll;
+        height: 60vh;
+        margin-top: 0;
+        padding: 0px;
+        background-image: url('../../../public/bg3.jpeg'); 
+        background-size: cover;
     }
-    
-    .container::-webkit-scrollbar {
-        display: none;
-    }
-    
     
     .container img {
-        width: 20%;
+        width: 30%;
         object-fit: scale-down;
-        filter: drop-shadow(20px 0px 20px #000);
-        margin-right: 30px;
+        filter: drop-shadow(0px 10px 0px #111);
+        padding: 25px 0px;
     }
     
 }

@@ -1,10 +1,13 @@
 .container {
-  display: block;
  width: auto;
  padding: 80px 4%;
  margin: 0;
  background-color: #fff;
  overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .titulo {
@@ -60,60 +63,38 @@
 
 
 
-
-
-
-@media (min-width: 768px) {
-.container {
-   width: auto;
-   padding: 40px 7%;
-   padding-top: 0;
-   margin: 0;
-   background-color: #111;
-   overflow-x: hidden;
+@media (min-width: 620px) and (max-width: 1024px) {
+  .container {
+   padding: 120px 4%;
+   padding-bottom: 40px;
   }
   
   .titulo {
-    font-size: 24px;
-    font-weight: 700;
-    color: rgba(256,256,256,.8);
-    text-align: left;
-    margin: 0;
-    margin-bottom: 30px;
+    font-size: 26px;
+    margin-bottom: 25px;
   }
   
   .acordeon {
-    width: auto;
-    height: auto;
-    padding: 5px 10px;
-    margin: 0;
-    background-color: #080808;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 12px;
   }
   
   .pregunta {
-   width: 100%;
-   color: violet;
-   background-color: transparent;
-   padding: 0;
-   margin: 0;
-   border: none;
-   text-align: left;
-   font-size: 20px;
-   font-weight: 550;
-}
-
-.respuesta {
-    width: 86%;
-    color: rgba(256, 256,256,.8);
-    background-color: transparent;
-    padding: 0;
-    margin: 10px 0px;
+   color: #424242;
+   font-size: 18px;
+   font-weight: 600;
+  }
+  
+  .respuesta {
+    color: #222;
+    padding-left: 15px;
+    margin: 20px 0px;
     border: none;
     text-align: left;
-    font-size: 20px;
-    line-height: 21px;
-}    
-      
+    font-size: 18px;
+    letter-spacing: .8px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #222;
+  }
 }
