@@ -142,14 +142,16 @@ color: red;
     
     .container {
         padding: 150px 4%;
-        background-image: radial-gradient(rgb(255, 205, 113),#fff,#fff);
         flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 80px;
+        background-image: none;
+        background-color:#fff;
     }
     
     .txt {
+        background-image: radial-gradient(rgb(255, 205, 113),#fff,#fff);
         width: auto;
         padding: 0;
     }
