@@ -186,7 +186,7 @@
 
 
 
-@media (min-width: 620px) and (max-width: 1024px) {
+@media (min-width: 580px) and (max-width: 780px) {
 
   
     .flotmovil {
@@ -273,175 +273,242 @@
 
 
 
-@media (min-width: 1024px) {
- .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+
+
+
+
+
+
+
+
+@media (min-width: 780px) and (max-width: 960px) {
+   .flotante {
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 8px;
+    background-color:#fff;
+    z-index: 2000;
+    padding: 8px 10px;
+    padding-top: 6px;
+    border: 1px solid green;
+    }
+
+    .flotante a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .wt {
+        font-size: 22px;
+        color: green;
+        position: relative;
+        top: 5px;   
+     }
+    
+    .flotmovil {
+        display: none;
+    }
+    
+    .titular {
+        padding: 0px 4%;
+        padding-bottom: 0;
+        background-image: url('../../../public/bgtablet.jpeg');
+    }
+    
+    .logo {
+        padding-bottom: 80px;
+    }
+    
+    .logo h2 {
+        font-size: 26px;
+    }
+    
+    .titulo {
+        font-size: 50px;
+        line-height: 96%;
+    }
+    
+    .mov {
+        display: none;
+    }
+    
+    .tablet {
+        display: none;
+    }
+
+    .imagenes { 
+        display: block;
+        margin: 0;
+        padding: 40px 0;
+        padding-bottom: 70px;
+        background-image: url('../../../public/bg3.jpeg');
+        background-size: cover;
+    }
+    
+    .amano {
+        font-size: 20px;
+    }
+    
+    .personalizados {
+        width: auto;
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+    
+    .regalo {
+        padding: 100px 4%;
+    }
+    
+    .regalo h4 {
+        width: 40%;
+        font-size: 38px;
+        line-height: 97%;
+        text-align: center;
+        position: relative;
+        left: 30px;
+    }
+    
+    .regalo img {
+        width: 36%;
+        left: -30px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+
+    .flotante {
+        display: block;
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        border-radius: 8px;
+        background-color:#fff;
+        z-index: 2000;
+        padding: 8px 10px;
+        padding-top: 6px;
+        border: 1px solid green;
+        }
+    
+        .flotante a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    
+        .wt {
+            font-size: 22px;
+            color: green;
+            position: relative;
+            top: 5px;   
+         }
 
 .flotmovil {
-    display: none;
+   display: none;
 }
-
-.flotante {
-    width: auto;
-    position: fixed;
-    right: 20px;
-    bottom: 40px;
-    border-radius: 10px;
-    background-color: #111;
-    z-index: 2000;
-    padding: 5px 10px;
-    padding-bottom: 13px;
-}
-
-.flotante:hover {
-    border: none;
-}
-
-.flotante a {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.flotante a:hover {
-    color: #fff;
-}
-
-.what {
-    font-size: 28px;
-    color: green;
-    position: relative;
-    top: 5px;
-}
-
-.subcontainer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(255, 255, 154);
-    padding: 0;
-}
-
-.caja {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 7%;
-}
-
-.first {
-    width: 60%;
-}
-
 
 .titular {
     width: auto;
-    padding: 120px 0px;
-    padding-bottom: 140px;
-    z-index: 100;
+    padding: 0px 4%;
+    padding-bottom: 0;
+    background-image: url('../../../public/bgtablet.jpeg');
+}
+
+.logo {
+    padding: 15px 0px;
+    padding-bottom: 80px;
+}
+
+.logo h2 {
+    font-size: 28px;
 }
 
 .titulo {
-    font-size: 6vw;
-    font-weight: 800;
-    line-height: 76%;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    color: rgb(42, 42, 42);
-    text-shadow: 1px 1px 0 violet, -1px -1px 0 violet, 1px -1px 0 violet, -1px 1px 0 violet;
-    filter: drop-shadow(0px 0px 10px rgba(238, 130, 238, 0.567));
+    font-size: 68px;
 }
 
 .amano {
-    font-size: 4vw;
-    font-weight: 500;
-    line-height: 70%;
-    margin: 0;
-    padding: 10px 0px;
-    padding-top: 20px;
-    color: rgb(244, 89, 244);
-    text-align: left;
-    filter: drop-shadow(0px 0px 10px #fff);
-    text-shadow: 1.3px 1.3px 0 #333333, -1.3px -1.3px 0 #333333, 1.3px -1.3px 0 #333333, -1.3px 1.3px 0 #333333;
+    font-size: 26px;
+    padding: 25px 0px;
+    padding-bottom: 15px;
 }
 
 .personalizados {
     width: auto;
-    font-size: 2.5vw;
-    font-weight: 500;
-    line-height: 40px;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    font-size: 22px;
+    padding-bottom: 30px;
 }
-
-.simp {
-    display: none;
-}
-
-.rac {
-    display: none;
-}
-
+   
 .mov {
     display: none;
 }
 
-.imagenes {
-    width: 40%;
-    padding: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.tablet {
+    display: none;
+}
+
+.imagenes { 
+    display: block;
+    margin: 0;
+    padding: 40px 0;
+    padding-bottom: 100px;
+    background-image: url('../../../public/bg3.jpeg');
+    background-size: cover;
 }
 
 .regalo {
-    background-color: #333;
+    background-color: #fff;
     margin: 0;
-    padding: 60px 7%;
-    padding-bottom: 40px;
+    padding: 120px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
 }
 
 .regalo h4 {
-    font-size: 2.7vw;
+    width: 20%;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 90%;
-    text-shadow: 1px 1px 5px #000;
+    line-height: 110%;
+    text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 146);
-    text-align: right;
+    color: #222;
+    text-align: center;
+    background-image: radial-gradient(rgb(255, 211, 130),rgb(255, 231, 186),#fff,#fff);
 }
 
 .regalo img {
     width: 24%;
-    filter: drop-shadow(70px 0px 30px #111);
-    position: relative;
-    animation: vibrar 0.1s ease-in infinite alternate;
-  }
-  
-  @keyframes vibrar {
-    0% {
-        transform: translateX(-3px);
-        ;
-    }
-    100% {
-        transform: translateX(3px);
-    }
-  }   
+}
 
 }

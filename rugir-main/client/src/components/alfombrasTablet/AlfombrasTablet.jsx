@@ -10,6 +10,7 @@ const images = [
   './racing.png',
   './diego.png',
   './serie.png',
+  './riber.png',
 ];
 
 const getRandomIndices = (max, count) => {

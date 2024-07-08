@@ -79,7 +79,7 @@
 
 
 
-@media (min-width: 620px) and (max-width: 1024px) {
+@media (min-width: 580px) and (max-width: 780px) {
   
     .container {
         padding: 120px 4%;
@@ -91,6 +91,7 @@
     }
     
     .container p {
+        max-width: 70%;
         font-size: 24px;
         line-height: 30px;
         color: #333;
@@ -114,5 +115,102 @@
         margin-right: 5px;
         color: #222;
     }
- 
-    }    
+    
+}    
+
+
+
+
+
+
+
+
+
+@media (min-width: 780px) and (max-width: 960px) {
+    .container {
+        padding: 150px 4%;
+    }
+    
+    .container h3 {
+        font-size: 36px;
+    }
+    
+    .container p {
+        max-width: 70%;
+        font-size: 26px;
+    }
+    
+    .redes {
+        margin-top: 50px;
+    }
+    
+    .redes button a {
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 7px 10px;
+        border: .5px solid #333;
+    }
+    
+    .icon {
+        font-size: 22px;
+        margin-right: 5px;
+        color: #222;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+    .container {
+        padding: 150px 4%;
+    }
+    
+    .container h3 {
+        font-size: 38px;
+    }
+    
+    .container p {
+        max-width: 50%;
+        font-size: 28px;
+    }
+    
+    .redes {
+        margin-top: 60px;
+    }
+    
+    .redes button a {
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 7px 10px;
+        border: .5px solid #333;
+    }
+
+
+    .redes button a:hover {
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 7px 10px;
+        border: .5px solid #333;
+        background-color: rgb(255, 200, 98);
+    }
+    
+    .icon {
+        font-size: 22px;
+        margin-right: 5px;
+        color: #222;
+    }
+}

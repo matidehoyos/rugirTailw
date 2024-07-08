@@ -40,8 +40,13 @@ function About() {
                 src={images[currentIndex]}
                 alt="About"
                 data-aos="zoom-in"
-      />
-        </div>
+           />
+           </div>
+            <div className={style.tablet}>
+            {images.map((image, index) => (
+        <img key={index} src={image} alt={`Imagen ${index + 1}`} />
+      ))}
+           </div>
     </div>
   )
 }

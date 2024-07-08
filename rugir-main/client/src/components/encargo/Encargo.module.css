@@ -84,7 +84,7 @@ color: red;
 
 
 
-@media (min-width: 620px) and (max-width: 1024px) {
+@media (min-width: 580px) and (max-width: 960px) {
     
     .container {
         padding: 120px 0px;
@@ -124,3 +124,75 @@ color: red;
         border: 1px solid #222;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+    
+    .container {
+        padding: 150px 4%;
+        background-image: radial-gradient(rgb(255, 205, 113),#fff,#fff);
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .txt {
+        width: auto;
+        padding: 0;
+    }
+    
+    .container p {
+        width: auto;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: -.5px;
+    }
+    
+    .alf {
+        font-size: 42px;
+        top: 10px;
+    }
+    
+    .caja {
+        padding: 0;
+        margin: 0;
+        margin-top: 0px;
+    }
+    
+    .categoria {
+        width: 30%;
+        font-size: 16px;
+        font-weight: 700;
+        color: #222;
+        background-color: #ffd17b;
+        border: 1px solid #222;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

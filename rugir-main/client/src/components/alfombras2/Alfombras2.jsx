@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import style from './Alfombras2.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 
 const images = [
   './serie.png',
   './diego.png',
   './racing.png',
+  './riber.png',
   './pika.png',
 ];
 
@@ -32,6 +34,9 @@ function Alfombras2() {
         className={style.image}
         alt="Product"
       />
+      <div className={style.alfpc}>
+            <AlfombrasTablet />
+      </div>
     </div>
   );
 }

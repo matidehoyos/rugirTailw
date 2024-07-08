@@ -20,7 +20,7 @@
 
 
 
-@media (min-width: 620px) and (max-width: 1024px) {
+@media (min-width: 580px) and (max-width: 780px) {
     .container {
         display: flex;
         flex-wrap: wrap;
