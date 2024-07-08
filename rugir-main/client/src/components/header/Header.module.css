@@ -136,7 +136,7 @@
 }
 
 .regalo {
-    background-image: radial-gradient( #fff,#efefef);
+    background-color: #fff;
     margin: 0;
     padding: 80px 4%;
     display: flex;
@@ -155,7 +155,7 @@
     padding: 0;
     color: #222;
     text-align: right;
-    background-image: radial-gradient(orange,orange,#fff,#fff);
+    background-image: radial-gradient(rgb(255, 211, 130),rgb(255, 231, 186),#fff,#fff);
 }
 
 .regalo img {
