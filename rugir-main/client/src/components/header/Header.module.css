@@ -57,24 +57,6 @@
     background-repeat: no-repeat;
 }
 
-.logo {
-    width: auto;
-    height: auto;
-    display: flex;
-    margin: 0;
-    padding: 10px 0px;
-    padding-bottom: 40px;
-}
-
-.logo h2 {
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-shadow: 0px 0px 5px #000;
-}
-
 .titulo {
     font-size: 36px;
     font-weight: 600;
@@ -82,6 +64,7 @@
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
+    padding-top: 90px;
     text-align: left;
     color: #ddd;
     text-shadow: 0.3px 0.3px 0 #fff, -0.3px -0.3px 0 #fff, 0.3px -0.3px 0 #fff, -0.3px 0.3px 0 #fff;
@@ -219,6 +202,7 @@
         font-size: 42px;
         font-weight: 700;
         line-height: 98%;
+        padding-top: 50px;
     }
     
     .mov {
@@ -319,17 +303,11 @@
         background-image: url('../../../public/bgtablet.jpeg');
     }
     
-    .logo {
-        padding-bottom: 80px;
-    }
-    
-    .logo h2 {
-        font-size: 26px;
-    }
     
     .titulo {
         font-size: 50px;
         line-height: 96%;
+        padding-top: 100px;
     }
     
     .mov {
@@ -442,16 +420,8 @@
     background-image: url('../../../public/bgtablet.jpeg');
 }
 
-.logo {
-    padding: 15px 0px;
-    padding-bottom: 80px;
-}
-
-.logo h2 {
-    font-size: 28px;
-}
-
 .titulo {
+    padding-top: 140px;
     font-size: 68px;
 }
 

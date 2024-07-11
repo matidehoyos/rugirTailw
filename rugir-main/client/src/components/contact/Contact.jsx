@@ -10,7 +10,7 @@ function Contact() {
   }, []);
 
   return (
-    <div className={style.container} id="contact">
+    <div className={style.container} id="contacto">
         <h3 data-aos="fade-up">Envianos tu consulta</h3>
         <p data-aos="fade-up">Pedí tu presupuesto através de un mensaje directo, responderemos a la brevedad...</p>
         <div className={style.redes}>

@@ -19,9 +19,9 @@ function Header() {
                 <div className={style.caja}>
                     <div className={style.first}>
                         <div className={style.titular}>
-                            <div className={style.logo}>
-                                <h2 data-aos="fade-down">RUGIR</h2>
-                            </div>
+                         <div className={style.logo}>
+
+                            </div> 
                             <h1 data-aos="zoom-in-right" className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
                             <p data-aos="zoom-in-right" className={style.amano}>PRODUCTOS HECHOS A MANO</p>
                             <h4 data-aos="zoom-in-right" className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
