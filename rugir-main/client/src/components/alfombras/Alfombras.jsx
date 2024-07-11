@@ -7,6 +7,7 @@ const images = [
   './simpsom.png',
   './aldo.png',
   './tx.png',
+  './carola.png',
 ];
 
 function Alfombras() {
