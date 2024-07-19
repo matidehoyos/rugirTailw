@@ -1,0 +1,22 @@
+.boxVideo {
+    width: 100%;
+    background-color: #111;
+    padding: 100px 0px;
+    overflow-x: hidden;
+}
+
+.box {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0px 0px 30px #000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.box video {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}

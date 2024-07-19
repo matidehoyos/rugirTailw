@@ -454,6 +454,18 @@
     background-size: cover;
 }
 
+.videoBox {
+    width: 55%;
+    background-color: red;
+    padding: 40px 0px;
+    overflow: hidden;
+}
+
+.videoBox video {
+    height: 300px !important;
+    overflow: hidden;
+}
+
 .regalo {
     background-color: #fff;
     margin: 0;

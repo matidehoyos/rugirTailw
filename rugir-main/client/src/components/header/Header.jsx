@@ -6,11 +6,16 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
+import Video from '../video/Video';
+const reelElements = document.getElementsByClassName('video');
+console.log(reelElements)
 
 function Header() {
     useEffect(() => {
         AOS.init(); 
+        
       }, []);
+
 
     return (
         <div className={style.container}>
@@ -37,6 +42,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
+                <Video />
                 <div className={style.regalo}>
                     <h4 data-aos="zoom-in">EL REGALO PERFECTO <br />NO EXIS...</h4>
                     <img data-aos="zoom-out-left" src="./pika.png" alt="alfombra pikachu" />
