@@ -7,13 +7,10 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 import Video from '../video/Video';
-const reelElements = document.getElementsByClassName('video');
-console.log(reelElements)
 
 function Header() {
     useEffect(() => {
         AOS.init(); 
-        
       }, []);
 
 
