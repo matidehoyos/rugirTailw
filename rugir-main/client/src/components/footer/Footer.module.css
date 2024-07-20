@@ -1,11 +1,32 @@
 .container {
     background-color: #111;
-    padding: 10px 0px;
+    padding: 20px 0px;
+    padding-bottom: 30px;
     border-top: .3px solid rgba(256,256,256,.1);
 }
 
-.container p {
+.copy {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
     color: rgba(256,256,256,.7);
+}
+
+.dev {
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: rgba(256,256,256,.7);
+    padding-top: 10px;
+}
+
+.dev a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 129, 129);
+    letter-spacing: .3px;
+    padding-left: 4px;
 }
