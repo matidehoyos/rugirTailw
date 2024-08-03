@@ -24,7 +24,7 @@
 }
 
 .dev a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: .3px;
