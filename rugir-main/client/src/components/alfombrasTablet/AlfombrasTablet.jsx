@@ -39,7 +39,7 @@ function AlfombrasTablet() {
   const displayedImages = currentGroupIndices.map((index) => images[index]);
 
   return (
-    <div className={style.container} data-aos="fade-up-left">
+    <div className={style.container} data-aos="fade-up-left" data-aos-duration="900">
       {displayedImages.map((src, index) => (
         <img key={index} src={src} alt={`Imagen ${index}`} />
       ))}

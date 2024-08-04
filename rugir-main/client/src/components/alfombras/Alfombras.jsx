@@ -7,6 +7,7 @@ const images = [
   './simpsom.png',
   './aldo.png',
   './tx.png',
+  './riber.png',
   './carola.png',
 ];
 
@@ -20,13 +21,13 @@ function Alfombras() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2500);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className={style.container} data-aos="fade-up-left">
+    <div className={style.container} data-aos="fade-up-left" data-aos-duration="1400">
       <img
         src={images[currentIndex]}
         className={style.image}

@@ -29,11 +29,12 @@ function Alfombras2() {
   }, []);
 
   return (
-    <div data-aos="zoom-in" className={style.container}>
+    <div className={style.container}>
       <img
         src={images[currentIndex]}
         className={style.image}
         alt="Product"
+        data-aos="zoom-in" data-aos-duration="900"
       />
       <div className={style.alfpc}>
             <AlfombrasTablet />

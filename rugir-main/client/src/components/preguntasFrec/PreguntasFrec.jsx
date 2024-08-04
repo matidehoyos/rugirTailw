@@ -63,9 +63,9 @@ const PreguntasFrecuentes = () => {
 
   return (
     <div className={style.container} id='frec'>
-      <h4 data-aos="fade-up-right" className={style.titulo} >Preguntas frecuentes</h4>
+      <h4 data-aos="fade-right" data-aos-duration="900" className={style.titulo} >Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
-        <div key={pregunta.id} className={style.acordeon} data-aos="fade-up-right">
+        <div key={pregunta.id} className={style.acordeon} data-aos="fade-right" data-aos-duration="900">
           <button 
             
             className={style.pregunta}

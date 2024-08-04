@@ -20,12 +20,12 @@ function Header() {
                 <div className={style.caja}>
                     <div className={style.first}>
                         <div className={style.titular}>
-                         <div className={style.logo}>
+                         <div className={style.logo}  data-aos="zoom-out" data-aos-duration="1000">
 
                             </div> 
-                            <h1 data-aos="zoom-in-right" className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
-                            <p data-aos="zoom-in-right" className={style.amano}>PRODUCTOS HECHOS A MANO</p>
-                            <h4 data-aos="zoom-in-right" className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
+                            <h1 data-aos="fade-right" data-aos-duration="1000"  className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
+                            <p data-aos="fade-right"  data-aos-duration="1000"  className={style.amano}>PRODUCTOS HECHOS A MANO</p>
+                            <h4 data-aos="fade-right"  data-aos-duration="1000"  className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
                         </div>
                         <div className={style.mov}>
                             <Alfombras />
@@ -40,8 +40,8 @@ function Header() {
                 </div>
               { /*}  <Video /> */ }
                 <div className={style.regalo}>
-                    <h4 data-aos="zoom-in">EL REGALO PERFECTO <br />NO EXIS...</h4>
-                    <img data-aos="zoom-out-left" src="./pika.png" alt="alfombra pikachu" />
+                    <h4 data-aos="zoom-in"  data-aos-duration="900">EL REGALO PERFECTO <br />NO EXIS...</h4>
+                    <img data-aos="zoom-out-left" data-aos-duration="900"src="./pika.png" alt="alfombra pikachu" />
                 </div>
             </div>
     )
