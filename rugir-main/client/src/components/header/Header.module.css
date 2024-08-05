@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px;
+    padding: 0;
     background-image: url(../../../public/8.jpeg);
     background-size: cover;
     background-position: bottom;
@@ -52,12 +52,12 @@
 .titular {
     width: auto;
     padding: 0;
-    padding-left: 6%;
+    padding-left: 4%;
     padding-bottom: 80px;
 }
 
 .titulo {
-    font-family: "Kalnia Glaze", serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-size: 34px;
     font-weight: 700;
@@ -100,8 +100,9 @@
 }
 
 .personalizados {
+    font-family: "Roboto", sans-serif;
     width: auto;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: .5px;
