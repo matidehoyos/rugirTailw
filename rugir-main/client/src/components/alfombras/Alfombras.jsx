@@ -8,9 +8,6 @@ const images = [
   './aldo.png',
   './tx.png',
   './boca1.png',
-  './riber.png',
-  './carola.png',
-  './velez.png'
 ];
 
 function Alfombras() {
@@ -31,7 +28,7 @@ function Alfombras() {
   return (
     <div className={style.container} data-aos="fade-left" data-aos-duration="1000">
       <img
-        src='./simpsom.png'
+        src={images[currentIndex]}
         className={style.image}
         alt="Product"
       />

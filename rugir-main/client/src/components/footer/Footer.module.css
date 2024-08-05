@@ -6,15 +6,15 @@
 
 .log {
     padding: 20px 0;
-    background-color: #050505;
+    background-color: #111;
 }
 
 .log img {
-    width: 200px;
+    width: 150px;
     border-top-left-radius: 70%;
     border-bottom-left-radius: 100%;
     overflow: hidden;
-    opacity: .2;
+    opacity: .3;
 }
 
 .copy {
