@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import style from './Alfombras.module.css';
+import style from './Alfombras3.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 
 const images = [
-  './simpsom.png',
-  './aldo.png',
   './tx.png',
-  './boca1.png',
-  './riber.png',
+  './serie.png',
   './carola.png',
-  './velez.png'
+  './pacman.png',
+  './simpsom.png',
+  './diego.png',
 ];
 
-function Alfombras() {
+function Alfombras3() {
   useEffect(() => {
     AOS.init(); 
   }, []);
@@ -23,20 +23,25 @@ function Alfombras() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 2400);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className={style.container} data-aos="fade-left" data-aos-duration="1000">
+    <div className={style.container}>
+      <h6>Con el logo de tu empresa,<br/>personalidades, series,<br/>y mucho más...</h6>
       <img
-        src='./simpsom.png'
+        src={images[currentIndex]}
         className={style.image}
         alt="Product"
+        data-aos="zoom-out" data-aos-duration="1000"
       />
+      <div className={style.alfpc}>
+            <AlfombrasTablet />
+      </div>
     </div>
   );
 }
 
-export default Alfombras;
+export default Alfombras3;

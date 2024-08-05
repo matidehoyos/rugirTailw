@@ -5,11 +5,12 @@ import 'aos/dist/aos.css';
 import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 
 const images = [
-  './serie.png',
-  './diego.png',
+  './aldo.png',
+  './boca1.png',
+  './velez.png',
   './racing.png',
   './riber.png',
-  './carola.png',
+  './diego.png',
 ];
 
 function Alfombras2() {
@@ -29,6 +30,7 @@ function Alfombras2() {
 
   return (
     <div className={style.container}>
+      <h6>Pedí la de tu equipo</h6>
       <img
         src={images[currentIndex]}
         className={style.image}
