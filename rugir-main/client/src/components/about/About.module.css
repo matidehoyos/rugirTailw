@@ -1,8 +1,10 @@
     .container {
         height: auto;
-        padding: 70px 0;
+        padding: 100px 0;
         margin: 0;
-        background-color: #696969;
+        background-color: #fff;
+        border-top: 1px solid #cbcbcb;
+        border-bottom: 1px solid #cbcbcb;
         overflow-x: hidden;
     }
     
@@ -23,11 +25,12 @@
         font-family: "Roboto", sans-serif;
         width: 100%;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 20px;
         text-align: left;
-        color: #f1f1f1;
-        letter-spacing: .6px;
+        color: #333;
+        letter-spacing: .4px;
+        word-spacing: 0px;
         margin: 0;
         padding: 0;
         padding-bottom: 20px;
@@ -36,7 +39,7 @@
     
     .caja p span {
         font-weight: 900;
-        color:  #f1f1f1;
+        color:  #333;
     }
     
     .cajaImg {
@@ -48,11 +51,11 @@
     
     .cajaImg img {
         width: 92%;
-        height: 340px;
+        height: 260px;
         object-fit: cover;
         object-position: center;
         border-radius: 6px;
-        border: 1px solid #111;
+        border: 1px solid #4b4b4b;
         margin: 0;
         opacity: .8;
         overflow: hidden;

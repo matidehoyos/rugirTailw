@@ -139,13 +139,14 @@
     text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
-    color: #111;
+    color: #333;
     text-align: right;
     background-image: radial-gradient(rgba(255, 211, 130, 0.673),rgba(255, 231, 186, 0.415),#ffffff00,#ffffff00);
 }
 
 .regalo img {
     position: relative;
+    left: -38px;
     width: 50%;
     filter: drop-shadow(22px 0px 20px rgba(0,0,0,.7));
     animation: vibrar 3s ease-in infinite alternate;

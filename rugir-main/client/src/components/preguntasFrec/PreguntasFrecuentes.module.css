@@ -2,7 +2,7 @@
  width: auto;
  padding: 70px 4%;
  margin: 0;
- background-color: #fff;
+ background-color: #fff7f7;
  overflow-x: hidden;
 }
 
@@ -43,7 +43,7 @@
 
 .respuesta {
   width: auto;
-  color: #222;
+  color: #111;
   background-color: transparent;
   padding: 0;
   padding-left: 10px;

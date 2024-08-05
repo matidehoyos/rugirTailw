@@ -1,7 +1,9 @@
 .container {
     padding: 70px 4%;
     margin: 0;
-    background-color: #696969;
+    background-color: #fff;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
 }
 
 
@@ -10,7 +12,7 @@
     margin: 0;
     font-size: 18px;
     font-weight: 700;
-    color: #f1f1f1;
+    color: #333;
     filter: none;
 }
 
@@ -19,7 +21,7 @@
     margin-right: 8px;
     position: relative;
     top: 6px;
-    color: #f1f1f1;
+    color: #333;
 }
 
 .retiro {
