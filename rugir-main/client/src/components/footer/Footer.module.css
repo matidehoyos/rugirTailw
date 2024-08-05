@@ -6,7 +6,8 @@
 
 .log {
     padding: 20px 0;
-    background-color: #111;
+    padding-top: 60px;
+    background-color: #969696;
 }
 
 .log img {
@@ -14,7 +15,7 @@
     border-top-left-radius: 70%;
     border-bottom-left-radius: 100%;
     overflow: hidden;
-    opacity: .3;
+    opacity: .6;
 }
 
 .copy {
