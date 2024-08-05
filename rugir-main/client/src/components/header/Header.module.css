@@ -57,6 +57,8 @@
 }
 
 .titulo {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
     font-size: 34px;
     font-weight: 700;
     line-height: 90%;
