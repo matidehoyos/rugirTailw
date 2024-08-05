@@ -5,9 +5,8 @@
 }
 
 .log {
-    padding: 20px 0;
-    padding-top: 60px;
-    background-color: #969696;
+    padding: 40px 0;
+    background-color: #000000;
 }
 
 .log img {
@@ -36,6 +35,7 @@
     margin: 0;
     margin-bottom: 8px;
     color: rgba(256,256,256,.7);
+    border-top: .5px solid #ffffff31;
 }
 
 .dev a {
