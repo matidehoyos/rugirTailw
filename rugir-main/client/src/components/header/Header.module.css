@@ -73,12 +73,9 @@
 
 .mov {
     display: block;
-    position: relative;
     margin: 0;
-    padding: 0px;
-    padding-bottom: 40px;
-  /*  background-image: url('../../../public/bg3.jpeg'); */
-    background-size: cover;
+    padding: 40px 0px;
+    padding-bottom: 60px;
 }
 
 .tablet {
