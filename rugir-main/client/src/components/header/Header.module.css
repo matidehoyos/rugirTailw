@@ -59,7 +59,7 @@
 .titulo {
     font-size: 34px;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 90%;
     letter-spacing: .8px;
     margin: 0;
     padding: 0;
@@ -100,7 +100,7 @@
 .personalizados {
     width: auto;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 34px;
     letter-spacing: .5px;
     text-align: left;
@@ -109,6 +109,8 @@
     color: #ffcd71;
     text-shadow: none;
     position: relative;
+    top: -5px;
+    left: 1px;
 }
    
 
