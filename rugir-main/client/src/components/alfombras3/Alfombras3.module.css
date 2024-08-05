@@ -22,7 +22,7 @@
 }
 
 .container img {
-    width: 200px;
+    width: 220px;
     object-fit: scale-down;
     filter: drop-shadow(0px 10px 0px #000);
     padding: 0;
