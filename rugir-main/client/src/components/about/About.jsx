@@ -34,14 +34,14 @@ function About() {
             <div className={style.caja}>
                 <h3>Sobre nosotros</h3>
                 <div className={style.parrafo}>
-                   <p data-aos="fade-up" data-aos-duration="900"><span>RUGIR</span> es un emprendimiento que nació como un hobby, y gracias a nuestros clientes, pudo ir creciendo hasta convertirse en nuestra principal actividad.<br/> Estamos felices de poder brindar un producto de primera calidad, y que muchas veces nos elijan al momento de hacer un regalo especial, decorar una casa, un quincho, un club, o un local comercial.</p>
+                   <p data-aos="fade-up" data-aos-duration="1000"><span>RUGIR</span> es un emprendimiento que nació como un hobby, y gracias a nuestros clientes, pudo ir creciendo hasta convertirse en nuestra principal actividad.<br/> Estamos felices de poder brindar un producto de primera calidad, y que muchas veces nos elijan al momento de hacer un regalo especial, decorar una casa, un quincho, un club, o un local comercial.</p>
                 </div>
             </div>
             <div className={style.cajaImg}>
             <img
                 src={images[currentIndex]}
                 alt="About"
-                data-aos="zoom-in" />
+                data-aos="fade-up" data-aos-duration="1000"/>
            </div>
             <div className={style.tablet}>
             {images.map((image, index) => (

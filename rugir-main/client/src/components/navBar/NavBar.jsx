@@ -6,8 +6,8 @@ function NavBar() {
   return (
     <div className={style.container}>
         <div className={style.logo}>
-                <img src="logo.png" alt="logo rugir" />
-                <h2 data-aos="fade-right" data-aos-duration="1000">RUGIR</h2>
+                <img src="logo.png" alt="logo rugir" data-aos="fade-up" data-aos-duration="1000"/>
+                <h2 data-aos="fade-up" data-aos-duration="1000">RUGIR</h2>
         </div>
         <div className={style.menu}>
           <ul>

@@ -9,7 +9,6 @@ const images = [
   './diego.png',
   './racing.png',
   './riber.png',
-  './pika.png',
   './carola.png',
 ];
 
@@ -23,7 +22,7 @@ function Alfombras2() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000);
+    }, 2400);
 
     return () => clearInterval(interval);
   }, []);
@@ -34,7 +33,7 @@ function Alfombras2() {
         src={images[currentIndex]}
         className={style.image}
         alt="Product"
-        data-aos="zoom-in" data-aos-duration="900"
+        data-aos="zoom-out" data-aos-duration="1000"
       />
       <div className={style.alfpc}>
             <AlfombrasTablet />

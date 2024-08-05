@@ -11,13 +11,13 @@ function Encargo() {
   return (
     <div className={style.container}>
         
-        <div className={style.txt} data-aos="zoom-in"  data-aos-duration="900">
+        <div className={style.txt} data-aos="fade-up"  data-aos-duration="1000">
              <p>    <span className={style.idea}>Contanos tu idea</span> <br/><span className={style.env}>o envianos la imagen</span>  
                     <br/> <span className={style.alfombra}>y la convertimos</span> <br/><span className={style.alf}>  EN ALFOMBRA </span>
             </p>
         </div>
 
-        <div className={style.caja} data-aos="fade-up" data-aos-duration="900">
+        <div className={style.caja} data-aos="fade-up" data-aos-duration="1000">
             <span className={style.categoria}>DEPORTES</span>
             <span className={style.categoria}>NOMBRES</span>
             <span className={style.categoria}>MUSICA</span>

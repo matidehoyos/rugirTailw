@@ -23,9 +23,9 @@ function Header() {
                          <div className={style.logo}  data-aos="zoom-out" data-aos-duration="1000">
 
                             </div> 
-                            <h1 data-aos="fade-right" data-aos-duration="1000"  className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
-                       {/*}     <p data-aos="fade-right"  data-aos-duration="1000"  className={style.amano}>PRODUCTOS HECHOS A MANO</p> */}
-                            <h4 data-aos="fade-right"  data-aos-duration="1000"  className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
+                            <h1 data-aos="fade-up" data-aos-duration="1000"  className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
+                       {/*}     <p data-aos="fade-up"  data-aos-duration="1000"  className={style.amano}>PRODUCTOS HECHOS A MANO</p> */}
+                            <h4 data-aos="fade-up"  data-aos-duration="1000"  className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
                         </div>
                         <div className={style.mov}>
                             <Alfombras />

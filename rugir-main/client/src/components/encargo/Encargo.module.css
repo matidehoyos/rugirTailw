@@ -1,39 +1,41 @@
 .container {
-    padding: 100px 0px;
-    padding-bottom: 45px;
+    padding: 70px 0px;
+    padding-bottom: 110px;
     margin: 0;
-    background-image: radial-gradient(rgb(255, 231, 185),#fff,#fff);
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff7f7;
 }
 
 .txt {
     width: 100%;
     margin: 0;
-    padding: 0px 0;
+    padding: 0;
 }
 
 .container p {
+    font-family: "Roboto", sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 800;
-    line-height: 30px;
-    letter-spacing: -1px;
-    color: #333;
+    line-height: 100%;
+    letter-spacing: .4px;
+    color: #111;
     filter: drop-shadow(0px 0px 10px transparent);
     text-shadow: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
 
 .alf {
-    font-size: 22px;
+    font-size: 30px;
     position: relative;
-    top: 5px;
+    top: 1px;
+    font-weight: 600;
     animation: colorChange 5s infinite;
 }
 
@@ -41,10 +43,7 @@
 0% {
 color: orange;
 }
-30% {
-color: orangered;
-}
-70% {
+100% {
 color: red;
 }
 }
@@ -54,12 +53,13 @@ color: red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 4%;
+    padding: 0 7%;
     margin: 0;
     margin-top: 50px;
 }
 
 .categoria {
+    font-family: "Roboto", sans-serif;
     width: 30%;
     font-size: 14px;
     font-weight: 700;
@@ -68,12 +68,9 @@ color: red;
     margin-right: 8px;
     margin-bottom: 8px;
     color: #333;
-    filter: none;
-    text-shadow: none;
+    filter: drop-shadow(0px 0px 3px rgba(255, 166, 0, 0.4));
     flex-shrink: 0;
-    background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid #333;
+    background-image: linear-gradient(to right, transparent, rgba(255, 166, 0, 0.453), transparent);
 }
 
 

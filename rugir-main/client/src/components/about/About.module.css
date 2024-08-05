@@ -1,8 +1,9 @@
     .container {
         height: auto;
-        padding: 0;
+        padding: 70px 0;
         margin: 0;
-        background-color: #c7c7c7;
+        background-color: #696969;
+        overflow-x: hidden;
     }
     
     .caja {
@@ -19,37 +20,42 @@
     }
     
     .parrafo p {
-        width: 96%;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 22px;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
         text-align: left;
-        color: #242424;
+        color: #f1f1f1;
         letter-spacing: .6px;
         margin: 0;
-        padding: 70px 0;
+        padding: 0;
+        padding-bottom: 20px;
         font-style: italic;
     }
     
     .caja p span {
-        font-weight: 700;
-        color:  #242424;
+        font-weight: 900;
+        color:  #f1f1f1;
     }
     
     .cajaImg {
         width: 100%;
         display: flex;
         justify-content: start;
-        padding: 70px 4%;
-        background-color: #fff7f7;
+        padding: 0px 4%;
     }
     
     .cajaImg img {
         width: 92%;
+        height: 340px;
         object-fit: cover;
+        object-position: center;
         border-radius: 6px;
+        border: 1px solid #111;
         margin: 0;
         opacity: .8;
+        overflow: hidden;
     }
 
     .tablet {

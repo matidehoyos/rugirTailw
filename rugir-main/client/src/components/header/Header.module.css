@@ -124,7 +124,7 @@
 .regalo {
     background-color: #fff7f7;
     margin: 0;
-    padding: 80px 4%;
+    padding: 70px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,32 +133,30 @@
 
 .regalo h4 {
     width: 70%;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 800;
     line-height: 94%;
     text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
-    color: #222;
+    color: #111;
     text-align: right;
-    background-image: radial-gradient(rgb(255, 211, 130),rgb(255, 231, 186),#fff,#fff);
+    background-image: radial-gradient(rgba(255, 211, 130, 0.673),rgba(255, 231, 186, 0.415),#ffffff00,#ffffff00);
 }
 
 .regalo img {
     position: relative;
     width: 50%;
-    filter: drop-shadow(22px 0px 20px rgba(0,0,0,.5));
-    position: relative;
-    animation: vibrar 1s ease-in infinite alternate;
+    filter: drop-shadow(22px 0px 20px rgba(0,0,0,.7));
+    animation: vibrar 3s ease-in infinite alternate;
 }
 
 @keyframes vibrar {
   0% {
-      transform: translateX(-3px);
-      ;
+    transform: rotateX(15deg) rotate(5deg); 
   }
   100% {
-      transform: translateX(3px);
+    transform: rotateX(-15deg) rotate(-5deg); 
   }
 }
 
