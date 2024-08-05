@@ -11,11 +11,11 @@
 .container img {
     width: 205px;
     object-fit: scale-down;
-    filter: drop-shadow(0px 14px 0px #000);
+    filter: drop-shadow(5px 14px 5px #000);
     position: relative;
     padding: 0;
     padding-bottom: 15px;
-    transform: rotateX(42deg) rotate(1deg); 
+    transform: rotateX(35deg) rotate(1deg); 
     opacity: .9;
 }
 
