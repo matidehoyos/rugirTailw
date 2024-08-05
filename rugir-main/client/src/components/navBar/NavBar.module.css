@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     gap: 3px;
+    opacity: .3;
 }
 
 .logo img {
@@ -19,11 +20,10 @@
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
-    opacity: .5;
 }
 
 .logo h2 {
-    color: #ffffff66;
+    color: #ffffffc8;
     font-size: 18px;
     font-weight: 700;
 }
