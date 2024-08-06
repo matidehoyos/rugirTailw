@@ -10,7 +10,6 @@ const images = [
   './velez.png',
   './racing.png',
   './riber.png',
-  './diego.png',
 ];
 
 function Alfombras2() {
