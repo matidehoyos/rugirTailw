@@ -453,7 +453,7 @@
 .imagenes { 
     display: block;
     margin: 0;
-    padding: 60px 0;
+    padding: 0;
 }
 
 .regalo {
@@ -481,6 +481,7 @@
 
 .regalo img {
     width: 200px;
+    position: relative;
 }
 
 }

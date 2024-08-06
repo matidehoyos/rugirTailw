@@ -40,7 +40,7 @@ function AlfombrasTablet() {
   return (
     <div className={style.container} data-aos="fade-up" data-aos-duration="1200">
       {images.map((src, index) => (
-        <img key={index} src={src} alt={`Imagen ${index}`} />
+        <img key={index} src={src} className={style.alfombra} alt={`Imagen ${index}`} />
       ))}
     </div>
   );

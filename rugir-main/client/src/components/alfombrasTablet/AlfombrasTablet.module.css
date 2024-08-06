@@ -1,7 +1,7 @@
 
 
 
-@media (min-width: 580px) and (max-width: 780px) {
+@media (max-width: 780px) {
     .container {
         display: flex;
         flex-wrap: nowrap;
@@ -25,7 +25,7 @@
 
 
 
-@media (min-width: 780px) and (max-width: 960px) {
+@media (min-width: 780px) and (max-width: 959px) {
     .container {
         display: flex;
         flex-wrap: nowrap;
@@ -61,13 +61,21 @@
         flex-wrap: nowrap;
         margin: 0;
         padding: 0 10%;
-        overflow-x: hidden;
+        overflow: visible;
     }
     
-    .container img {
+    .alfombra {
         width: 180px !important;
         object-fit: cover;
-        filter: drop-shadow(0px 0px 10px #000);
+        filter: drop-shadow(0px 8px 0px #0000009c) !important;
+        overflow: visible;
+        transition: transform 0.5s ease-out;
+        transform: rotateX(30deg) rotate(0deg); 
     }
     
+    .container img:hover {
+        z-index: 100;
+        filter: drop-shadow(0px 0px 40px #000000) !important;
+      transform: rotateX(10deg) rotate(3deg) scale(1.6); 
+    }
 }

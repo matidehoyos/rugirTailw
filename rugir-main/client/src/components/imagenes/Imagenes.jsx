@@ -17,12 +17,10 @@ function Imagenes() {
     }, []);
   
   return (
-    <div className={style.container}>
-      <div className={style.line} data-aos="fade-up" data-aos-duration="1000">
+    <div className={style.container} data-aos="fade-up" data-aos-duration="1000">
         {images.slice(0,6).map((image, index) => (
           <img key={index} src={image} className={style.image} alt="Product"/>
         ))}
-      </div>
      </div>
   );
 }

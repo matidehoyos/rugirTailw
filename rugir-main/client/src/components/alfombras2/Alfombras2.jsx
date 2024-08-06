@@ -40,7 +40,7 @@ function Alfombras2() {
       <div className={style.imagesPc} data-aos="fade-up" data-aos-duration="1000">
         {
           images.map((image, i) => (
-             <img key={i} src={image} alt="Alfombra." />
+             <img key={i} src={image} className={style.imaPc} alt="Alfombra." />
           ))
         }
       </div>

@@ -3,17 +3,8 @@
   display: flex;
   margin: 0;
   padding: 0 4%;
-  padding-top: 0px;
-  background-color: transparent;
   overflow: hidden;
-}
-
-.line {
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  gap: 70px;
 }
 
 .image {
@@ -21,12 +12,17 @@
   width: 200px; 
   object-fit: scale-down;
   filter: drop-shadow(0px 8px 0px #000000);
-  padding-bottom: 15px;
+  padding: 60px;
   transform: rotateX(37deg) rotate(3deg); 
+  transition: transform 0.6s ease-out;
+  
 }
 
-
-
+.image:hover {
+  z-index: 100;
+  filter: drop-shadow(0px 0px 30px #000);
+  transform: rotateX(7deg) rotate(0deg) scale(1.2); 
+}
 
 
 
