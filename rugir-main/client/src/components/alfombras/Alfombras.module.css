@@ -15,7 +15,7 @@
     position: relative;
     padding: 0;
     padding-bottom: 15px;
-    transform: rotateX(35deg) rotate(1deg); 
+    transform: rotateX(50deg) rotate(-1deg); 
     opacity: .9;
 }
 
