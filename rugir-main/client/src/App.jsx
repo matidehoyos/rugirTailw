@@ -23,8 +23,8 @@ function App() {
       <Alfombras3 />
       <Contact />
       <Ubicacion />
-      <Video />
       <About />
+      <Video />
       <PreguntasFrecuentes />
       <Footer />
     </>

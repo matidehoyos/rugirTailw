@@ -6,10 +6,10 @@
     width: auto;
     height: auto;
     margin: 0;
-    padding: 90px 0;
+    padding: 120px 0;
     background-image: url('../../../public/29.jpeg'); 
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 
 .container h6 {
@@ -20,15 +20,14 @@
     letter-spacing: .6px;
     line-height: 100%;
     margin: 0;
-    margin-bottom: 170px;
+    margin-bottom: 60px;
 }
 
 .container img {
-    width: 180px;
+    width: 200px;
     object-fit: cover;
     filter: drop-shadow(0px 10px 0px #000);
     padding: 0;
-    margin-top: 30px;
     padding-bottom: 15px;
 }
 
