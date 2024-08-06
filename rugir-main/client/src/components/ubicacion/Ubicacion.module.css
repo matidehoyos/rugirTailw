@@ -1,7 +1,7 @@
 .container {
     padding: 100px 4%;
     margin: 0;
-    background-color: #fff;
+    background-color:#f6f6f6;
 }
 
 
@@ -22,24 +22,6 @@
     color: #333;
 }
 
-.retiro {
-    margin: 0;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 10px;
-    color: #868686;
-    filter: none;
-}
-
-.ubi {
-    color: #868686;
-    font-size: 12px;
-    margin-right: 8px;
-}
-
-
-
-
 
 
 
@@ -50,10 +32,9 @@
 
 @media (min-width: 580px) and (max-width: 780px) {
     .container {
-        background-color: #333;
+        background-color:#f6f6f6;
         padding: 60px 4%;
     }
-    
     
     .pais {
         font-size: 24px;
@@ -62,20 +43,7 @@
     .truk {
         font-size: 26px;
         margin-right: 10px;
-        color: #a2a2a2;
-    }
-    
-    .retiro {
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 10px;
-        color: #c4c4c4;
-    }
-    
-    .ubi {
-        color: #dedede;
-        font-size: 20px;
-        margin-right: 10px;
+        color: #333;
     }
     
 }
@@ -94,7 +62,7 @@
 
 @media (min-width: 780px) and (max-width: 960px) {
     .container {
-        background-color: #222;
+        background-color:#f6f6f6;
         padding: 90px 4%;
     }
     
@@ -106,16 +74,6 @@
     .truk {
         font-size: 32px;
         margin-right: 12px;
-    }
-    
-    .retiro {
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 10px;
-    }
-    
-    .ubi {
-        font-size: 24px;
     }
     
 }
@@ -134,27 +92,18 @@
 @media (min-width: 960px) {
 
     .container {
-        background-color: #222;
-        padding: 120px 4%;
+        background-color:#f6f6f6;
+        padding: 200px 4%;
+        padding-bottom: 40px;
     }
     
     .pais {
-        font-size: 32px;
+        font-size: 36px;
     }
     
     .truk {
-        font-size: 32px;
+        font-size: 48px;
         margin-right: 12px;
-    }
-    
-    .retiro {
-        font-size: 26px;
-        font-weight: 500;
-        margin-top: 10px;
-    }
-    
-    .ubi {
-        font-size: 24px;
     }
     
 }

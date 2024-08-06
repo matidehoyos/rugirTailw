@@ -40,8 +40,8 @@ function Header() {
                 </div>
               { /*}  <Video /> */ }
                 <div className={style.regalo}>
-                    <h4 data-aos="zoom-in"  data-aos-duration="900">EL REGALO PERFECTO <br />NO EXIS...</h4>
-                    <img data-aos="zoom-out-left" data-aos-duration="900"src="./pika.png" alt="alfombra pikachu" />
+                    <h4 data-aos="fade-left"  data-aos-duration="1000">EL REGALO PERFECTO <br />NO EXIS...</h4>
+                    <img data-aos="fade-left" data-aos-duration="1000"src="./pika.png" alt="alfombra pikachu" />
                 </div>
             </div>
     )

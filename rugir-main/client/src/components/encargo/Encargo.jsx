@@ -12,7 +12,7 @@ function Encargo() {
     <div className={style.container}>
         
         <div className={style.txt} data-aos="fade-up"  data-aos-duration="1000">
-             <p>Contanos tu idea<br/>o envianos la imagen<br/>y la convertimos<br/><span className={style.alf}>EN ALFOMBRA </span> </p>
+             <p>Contanos tu idea<br/>o envianos la imagen<br/>y la convertimos<br/><span className={style.alf}>en alfombra </span> </p>
         </div>
 
         <div className={style.caja} data-aos="fade-up" data-aos-duration="1000">

@@ -11,9 +11,9 @@ function NavBar() {
         </div>
         <div className={style.menu}>
           <ul>
-            <li><a href="#about">Nosotros</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-            <li><a href="#frec"><FaQuestion  className={style.ico} /></a></li>
+            <li><a href="#about">QUIENES SOMOS?</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="#frec">FAQ</a></li>
           </ul>
         </div>
     </div>

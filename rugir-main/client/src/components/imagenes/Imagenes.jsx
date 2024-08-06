@@ -1,22 +1,26 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import style from "./Imagenes.module.css"
 
+
 const images = [
-  './simpsom.png',
-  './serie.png',
   './tx.png',
   './aldo.png',
+  './simpsom.png',
   './diego.png',
-  './racing.png',
 ];
 
 function Imagenes() {
-
+  useEffect(() => {
+      AOS.init(); 
+    }, []);
+  
   return (
     <div className={style.container}>
-      <div className={style.line}>
+      <div className={style.line} data-aos="fade-up" data-aos-duration="1000">
         {images.slice(0,6).map((image, index) => (
-          <img key={index} src={image} className={style.image} alt="Product" />
+          <img key={index} src={image} className={style.image} alt="Product"/>
         ))}
       </div>
      </div>

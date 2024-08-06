@@ -144,4 +144,59 @@
     line-height: 22px;
     color: #222;
   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+
+  .container {
+   padding: 120px 10%;
+   padding-bottom: 200px;
+  }
+  
+  .titulo {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  .acordeon {
+    padding: 10px 12px;
+    margin-bottom: 12px;
+  }
+  
+  .pregunta {
+   color: #424242;
+   font-size: 22px;
+   font-weight: 600;
+   cursor: pointer;
+  }
+  
+  .respuesta {
+    color: #444;
+    padding-left: 15px;
+    margin: 20px 0px;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: .8px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #222;
+  }
+
 }

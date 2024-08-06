@@ -23,22 +23,26 @@ function Alfombras2() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2400);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className={style.container}>
-      <h6>Pedí la de tu equipo</h6>
+      <h6 data-aos="fade-right" data-aos-duration="1000">Pedí la de tu equipo</h6>
       <img
         src={images[currentIndex]}
         className={style.image}
         alt="Product"
         data-aos="zoom-out" data-aos-duration="1000"
       />
-      <div className={style.alfpc}>
-            <AlfombrasTablet />
+      <div className={style.imagesPc} data-aos="fade-up" data-aos-duration="1000">
+        {
+          images.map((image, i) => (
+             <img key={i} src={image} alt="Alfombra." />
+          ))
+        }
       </div>
     </div>
   );

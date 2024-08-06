@@ -4,13 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  './simpsom.png',
-  './aldo.png',
   './tx.png',
-  './racing.png',
-  './diego.png',
+  './pacman.png',
+  './carola.png',
+  './pika.png',
+  './simpsom.png',
   './serie.png',
-  './riber.png',
 ];
 
 const getRandomIndices = (max, count) => {
@@ -28,8 +27,8 @@ function AlfombrasTablet() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentGroupIndices(getRandomIndices(images.length, 3));
-    }, 2000); 
+      setCurrentGroupIndices(getRandomIndices(images.length, 1));
+    }, 1000); 
 
     return () => {
       clearInterval(intervalId);
@@ -39,8 +38,8 @@ function AlfombrasTablet() {
   const displayedImages = currentGroupIndices.map((index) => images[index]);
 
   return (
-    <div className={style.container} data-aos="fade-up-left" data-aos-duration="900">
-      {displayedImages.map((src, index) => (
+    <div className={style.container} data-aos="fade-up" data-aos-duration="1200">
+      {images.map((src, index) => (
         <img key={index} src={src} alt={`Imagen ${index}`} />
       ))}
     </div>

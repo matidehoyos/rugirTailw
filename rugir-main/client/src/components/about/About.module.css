@@ -185,26 +185,20 @@
 
 @media (min-width: 960px) {
 .container {
-    padding: 100px 0px;
-    background-color: #111;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 80%;
+    padding: 200px 0;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-}
-
-.imag {
-    width: 22%;
-}
-
-.tigre {
-    width: 100%;
-    opacity: .05 !important;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .caja {
-    width: 66%;
-    padding-left: 100px;
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .caja h3 {
@@ -213,10 +207,13 @@
 
 .caja p {
     max-width: 100%;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
     background-image: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    filter: drop-shadow(0px 0px 5px #000);
 }
 
 .cajaImg { 
@@ -224,21 +221,19 @@
 }
 
 .tablet {
-    width: auto;
-    padding: 0px 4%;
-    margin: 0 auto;
-    margin-top: 70px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .tablet img {
-    width: 22%;
-    object-fit: scale-down;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    border: 1px solid #010101;
+    width: 23%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #000000;
 }
 }
 

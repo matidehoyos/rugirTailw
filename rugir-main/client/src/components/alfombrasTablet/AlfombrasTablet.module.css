@@ -51,25 +51,23 @@
 
 
 
-
-
-
 @media (min-width: 960px) {
 
     .container {
+        width: 80%;
         display: flex;
-        flex-wrap: nowrap;
-        width: auto;
-        padding: 80px 0;
-        background-color: transparent;
         justify-content: center;
-        gap: 120px;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0 10%;
+        overflow-x: hidden;
     }
     
     .container img {
-        width: 20%;
-        object-fit: scale-down;
-        filter: drop-shadow(0px 10px 0px #111);
+        width: 180px !important;
+        object-fit: cover;
+        filter: drop-shadow(0px 0px 10px #000);
     }
     
 }

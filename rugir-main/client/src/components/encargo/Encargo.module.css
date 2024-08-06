@@ -1,5 +1,5 @@
 .container {
-    padding: 100px 0px;
+    padding: 120px 0px;
     margin: 0;
     width: auto;
     display: flex;
@@ -31,8 +31,6 @@
 }
 
 .alf {
-    position: relative;
-    top: 5px;
     font-weight: 900;
     color: tomato;
 }
@@ -126,32 +124,31 @@
 @media (min-width: 960px) {
     
     .container {
-        padding: 150px 4%;
+        padding: 200px 0;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 80px;
         background-image: none;
-        background-color:#fff;
+        background-color:#f6f6f6;
     }
     
     .txt {
-        background-image: radial-gradient(rgb(255, 205, 113),#fff,#fff);
+        background-image: radial-gradient(rgba(255, 205, 113, 0.668),transparent,transparent);
         width: auto;
         padding: 0;
     }
     
     .container p {
+        font-family: "Roboto", sans-serif;
         width: auto;
-        font-size: 42px;
+        font-size: 38px;
         font-weight: 700;
         line-height: 46px;
         letter-spacing: -.5px;
     }
     
     .alf {
-        font-size: 42px;
-        top: 10px;
+        top: 0px;
     }
     
     .caja {
