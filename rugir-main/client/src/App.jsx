@@ -21,9 +21,9 @@ function App() {
       <Alfombras2 />
       <Encargo />
       <Alfombras3 />
+      <Contact />
       <Ubicacion />
       <Video />
-      <Contact />
       <About />
       <PreguntasFrecuentes />
       <Footer />

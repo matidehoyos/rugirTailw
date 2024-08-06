@@ -3,11 +3,12 @@
     height: auto;
     background-color: #111;
     padding: 100px 0px;
+    padding-bottom: 0;
     overflow-x: hidden;
 }
 
 .box {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     padding: 0;
