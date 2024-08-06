@@ -19,9 +19,9 @@ function Header() {
             <button className={style.flotmovil}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.what}/></a></button>
                 <div className={style.caja}>
                     <div className={style.first}>
-                        <div className={style.titular}>
-                            <h1 data-aos="fade-up" data-aos-duration="1000"  className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
-                            <h4 data-aos="fade-up"  data-aos-duration="1000"  className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
+                        <div className={style.titular} data-aos="zoom-out" data-aos-duration="1000">
+                            <h1  className={style.titulo}>TUFTING RUGS <br/> ALFOMBRAS<br/> TAPETES</h1>
+                            <h4 className={style.personalizados}>DISEÑOS PERSONALIZADOS</h4>
                         </div>
                         <div className={style.mov}>
                             <Alfombras />

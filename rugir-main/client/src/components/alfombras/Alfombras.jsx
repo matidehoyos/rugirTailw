@@ -26,7 +26,7 @@ function Alfombras() {
   }, []);
 
   return (
-    <div className={style.container} data-aos="fade-left" data-aos-duration="1000">
+    <div className={style.container} data-aos="fade-up" data-aos-duration="1000">
       <img
         src={images[currentIndex]}
         className={style.image}
