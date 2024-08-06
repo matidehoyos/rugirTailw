@@ -9,7 +9,7 @@
 }
 
 .container img {
-    width: 205px;
+    width: 190px;
     object-fit: scale-down;
     filter: drop-shadow(5px 14px 5px #000);
     position: relative;
