@@ -64,7 +64,8 @@
 @media (min-width: 780px) and (max-width: 960px) {
     .container {
         background-color:#f6f6f6;
-        padding: 90px 4%;
+        padding: 120px 4%;
+        padding-top: 0;
     }
     
     
