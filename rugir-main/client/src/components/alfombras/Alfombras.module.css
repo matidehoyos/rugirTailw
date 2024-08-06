@@ -9,13 +9,13 @@
 }
 
 .container img {
-    width: 190px;
+    width: 210px;
     object-fit: scale-down;
     filter: drop-shadow(5px 14px 5px #000);
     position: relative;
     padding: 0;
     padding-bottom: 15px;
-    transform: rotateX(50deg) rotate(-1deg); 
+    transform: rotateX(41deg) rotate(-1deg); 
     opacity: .9;
 }
 

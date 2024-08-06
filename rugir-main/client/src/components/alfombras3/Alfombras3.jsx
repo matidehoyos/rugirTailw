@@ -23,7 +23,7 @@ function Alfombras3() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2400);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
