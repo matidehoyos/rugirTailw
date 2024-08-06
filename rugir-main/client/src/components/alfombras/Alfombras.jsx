@@ -6,8 +6,9 @@ import 'aos/dist/aos.css';
 const images = [
   './simpsom.png',
   './aldo.png',
-  './tx.png',
   './boca1.png',
+  './mafalda.png',
+  './tx.png',
 ];
 
 function Alfombras() {
@@ -20,7 +21,7 @@ function Alfombras() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000);
+    }, 1800);
 
     return () => clearInterval(interval);
   }, []);

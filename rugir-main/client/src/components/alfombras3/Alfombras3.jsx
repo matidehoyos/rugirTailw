@@ -5,12 +5,13 @@ import 'aos/dist/aos.css';
 import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 
 const images = [
+  './mafalda.png',
   './tx.png',
-  './serie.png',
   './carola.png',
   './pacman.png',
   './simpsom.png',
   './diego.png',
+  './serie.png',
 ];
 
 function Alfombras3() {

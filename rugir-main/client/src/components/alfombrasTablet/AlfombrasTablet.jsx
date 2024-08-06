@@ -7,7 +7,7 @@ const images = [
   './tx.png',
   './pacman.png',
   './carola.png',
-  './pika.png',
+  './mafalda.png',
   './simpsom.png',
   './serie.png',
 ];
