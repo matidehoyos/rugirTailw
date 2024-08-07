@@ -76,11 +76,6 @@
         padding: 80px 0px;
         background-color: #111;
     }
-  
-    .tigre {
-        width: 100%;
-        opacity: .05 !important;
-    }
     
     .caja h3 {
         display: none;
@@ -99,11 +94,12 @@
     }
 
     .tablet {
-        margin-top: 60px;
-        width: auto;
-        padding: 0px 4%;
+        margin-top: 0px;
+        width: 86%;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
+        margin: 0 auto;
     }
 
     .tablet img {

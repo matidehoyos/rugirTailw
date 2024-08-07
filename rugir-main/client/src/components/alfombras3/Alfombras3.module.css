@@ -46,10 +46,12 @@
 @media (min-width: 580px) and (max-width: 780px) {
    
     .container {
-        height: 500px;
-        margin-top: 0;
-        padding: 0px;
+        padding: 140px 0px;
         background-size: cover;
+    }
+
+    .container h6 {
+        font-size: 28px;
     }
     
     .container img {

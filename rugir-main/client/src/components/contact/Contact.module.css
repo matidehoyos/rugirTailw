@@ -82,6 +82,7 @@
   
     .container {
         padding: 120px 4%;
+        padding-bottom: 30px;
     }
     
     .container h3 {
@@ -128,6 +129,7 @@
 @media (min-width: 780px) and (max-width: 960px) {
     .container {
         padding: 150px 4%;
+        padding-bottom: 0px;
     }
     
     .container h3 {
