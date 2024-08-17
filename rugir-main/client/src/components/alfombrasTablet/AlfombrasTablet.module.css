@@ -54,13 +54,13 @@
 @media (min-width: 960px) {
 
     .container {
-        width: 80%;
+        width: 86%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        margin: 0;
-        padding: 0 10%;
+        margin: 0 auto;
+        padding: 0;
         overflow: visible;
     }
     

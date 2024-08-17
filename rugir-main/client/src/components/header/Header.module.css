@@ -30,66 +30,90 @@
     color: rgb(0, 179, 0);
 }
 
+.video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.video video {
+    width: 100%;
+}
+
 .caja {
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0;
-    background-image: url(../../../public/5.jpeg);
+    /* background-image: url(../../../public/5.jpeg); 
     background-size: cover;
-    background-position: bottom
+    background-position: bottom;
+    background-color: transparent; */
 }
-
-.first {
-    width: 100%;
-}
-
 
 .titular {
-    width: 75%;
-    margin: 95px auto;
-    margin-bottom: 30px;
-    padding: 30px 0;
-    padding-bottom: 10px;
-    background-image: url('../../../public/99.jpeg');
-    background-size: cover;
+    width: 100vh !important;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(0,0,0,.7);
+  /*  background-image: url('../../../public/99.jpeg');
+    background-size: cover; 
     box-shadow: 0px 0px 30px #000;
-    filter: drop-shadow(0px 0px 5px #000);
+    filter: drop-shadow(0px 0px 5px #000); */
 }
 
 .titulo {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 95%;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 105%;
     letter-spacing: .8px;
     margin: 0;
+    margin-top: 180px;
     padding: 0;
     text-align: center;
-    color: #000;
-    text-shadow: 0 0 7px rgba(255, 166, 0, 0.188), 0 0 10px rgba(255, 166, 0, 0.292), 0 0 21px rgba(255, 166, 0, 0.292), 0 0 42px rgba(255, 166, 0, 0.253), 0 0 82px rgba(255, 166, 0, 0.286), 0 0 92px rgba(255, 166, 0, 0.248), 0 0 102px rgba(255, 166, 0, 0.264), 0 0 151px rgba(255, 166, 0, 0.281);
+    color: #fff;
+    text-shadow: 3px 3px 8px #000;
+    filter: drop-shadow(0px 0px 5px #000);
+  /*  text-shadow: 0 0 7px rgba(255, 166, 0, 0.188), 0 0 10px rgba(255, 166, 0, 0.292), 0 0 21px rgba(255, 166, 0, 0.292), 0 0 42px rgba(255, 166, 0, 0.253), 0 0 82px rgba(255, 166, 0, 0.286), 0 0 92px rgba(255, 166, 0, 0.248), 0 0 102px rgba(255, 166, 0, 0.264), 0 0 151px rgba(255, 166, 0, 0.281); */
 }
 
 .personalizados {
     font-family: "Roboto", sans-serif;
     width: auto;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 900;
-    line-height: 34px;
-    letter-spacing: .5px;
+    line-height: 103%;
+    letter-spacing: .6px;
     text-align: center;
     margin: 0;
+    margin-top: 40px;
     padding: 0;
-    color: #000;
-    text-shadow: 0 0 7px rgba(255, 166, 0, 0.44), 0 0 10px rgba(255, 166, 0, 0.489), 0 0 21px rgba(255, 166, 0, 0.533), 0 0 42px rgba(255, 166, 0, 0.516), 0 0 82px rgba(255, 166, 0, 0.527), 0 0 92px rgba(255, 166, 0, 0.434), 0 0 102px rgba(255, 166, 0, 0.544), 0 0 151px rgba(255, 166, 0, 0.533);
+    color: orange;
+    text-shadow: 3px 3px 8px #000;
+    filter: drop-shadow(0px 0px 5px #000);
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.personaliza {
+    display: none;
 }
    
 .mov {
-    display: block;
+    display: none;
     margin: 0;
     padding: 80px 0px;
     padding-bottom: 60px;
@@ -107,7 +131,7 @@
 .regalo {
     background-color: #fff7f7;
     margin: 0;
-    padding: 70px 4%;
+    padding: 120px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +139,7 @@
 }
 
 .regalo h4 {
-    width: 70%;
+    width: 60%;
     font-size: 22px;
     font-weight: 800;
     line-height: 94%;
@@ -168,15 +192,18 @@
 
 
     .titular {
-        width: 80%;
+        width: 100vw !important;
+        justify-content: start;
     }
     
     .titulo {
-        font-size: 42px;
+        font-size: 54px;
         font-weight: 800;
         line-height: 102%;
-        color: #000;
-        padding: 30px;
+        color: #fff;
+        padding: 0;
+        margin-top: 160px;
+        text-shadow: 5px 5px 10px #000;
        }
     
     .tablet {
@@ -192,22 +219,30 @@
     }
 
     .personalizados {
+           display: none;
+        }
+
+    .personaliza {
             font-family: "Roboto", sans-serif;
             width: auto;
             font-size: 22px;
             font-weight: 900;
-            line-height: 34px;
+            line-height: 100%;
             letter-spacing: .5px;
             text-align: center;
             margin: 0;
             padding: 0;
-            color: #000;
-            text-shadow: 0 0 7px rgba(255, 166, 0, 0.44), 0 0 10px rgba(255, 166, 0, 0.489), 0 0 21px rgba(255, 166, 0, 0.533), 0 0 42px rgba(255, 166, 0, 0.516), 0 0 82px rgba(255, 166, 0, 0.527), 0 0 92px rgba(255, 166, 0, 0.434), 0 0 102px rgba(255, 166, 0, 0.544), 0 0 151px rgba(255, 166, 0, 0.533);
+            color: orange;
+            position: absolute;
+            bottom: 40px;
+            display: block;
+            text-shadow: 5px 5px 8px #000;
+            filter: drop-shadow(0px 0px 5px #000);
         }
     
        
     .regalo {
-        padding: 100px 4%;
+        padding: 120px 4%;
     }
     
     .regalo h4 {
@@ -267,16 +302,23 @@
         display: none;
     }
     
+.video video {
+    object-position: bottom;
+    object-fit: contain;
+}
+
     .titular {
-        width: 65%;
-        padding: 0px 4%;
+        width: 100vw !important;
+        padding: 0;
+        justify-content: start;
     }
     
     
     .titulo {
-        font-size: 50px;
-        line-height: 96%;
-        padding-top: 100px;
+        font-size: 62px;
+          line-height: 100%;
+          margin-top: 200px;
+          text-shadow: 5px 5px 10px #000;
     }
     
     .mov {
@@ -284,7 +326,7 @@
     }
     
     .tablet {
-        display: flex;
+        display: none;
     }
 
     .imagenes { 
@@ -301,13 +343,26 @@
     }
     
     .personalizados {
-        width: auto;
-        font-size: 18px;
-        padding-bottom: 50px;
+        display: none;
     }
+
+    .personaliza {
+        display: block;
+        font-family: "Roboto", sans-serif;
+        width: auto;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        color: orange;
+        text-shadow: 3px 3px 8px #000;
+        filter: drop-shadow(0px 0px 5px #000);
+        position: absolute;
+        bottom: 20px;
+    }
+     
     
     .regalo {
-        padding: 100px 4%;
+        padding: 140px 4%;
     }
     
     .regalo h4 {
@@ -385,26 +440,25 @@
 }
 
 .caja {
-    background-image: url('../../../public/bgg.jpg');
-    background-size: cover;
+  width: 100vw !important;
 }
 
 .titular {
-    background-image: url('../../../public/99.jpeg');
-    box-shadow: 0px 0px 15px #000;
-    width: 660px;
-    padding: 55px 0;
-    margin: 0 auto;
-    margin-top: 60px;
-    opacity: .8;
+    width: 100vw !important;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,.7);
+    justify-content: start;
 }
 
 .titulo {
     padding-top: 0px;
-    font-size: 60px;
+    font-size: 72px;
     text-align: center;
-    color: #000;
-    text-shadow: 0 0 7px rgba(255, 166, 0, 0.44), 0 0 10px rgba(255, 166, 0, 0.489), 0 0 21px rgba(255, 166, 0, 0.533), 0 0 42px rgba(255, 166, 0, 0.516), 0 0 82px rgba(255, 166, 0, 0.527), 0 0 92px rgba(255, 166, 0, 0.434), 0 0 102px rgba(255, 166, 0, 0.544), 0 0 151px rgba(255, 166, 0, 0.533);
+    color: #fff;
+    text-shadow: 3px 3px 8px #000;
+    margin-top: 150px;
+    line-height: 100%;
 }
 
 .amano {
@@ -414,16 +468,20 @@
 }
 
 .personalizados {
+    display: none;
+}
+
+.personaliza {
+    display: block;
     font-family: "Roboto", sans-serif;
     width: auto;
-    font-size: 20px;
-    font-weight: 900;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    font-size: 28px;
+    font-weight: 600;
     text-align: center;
-    color: #000;
-    text-shadow: 0 0 7px rgba(255, 166, 0, 0.44), 0 0 10px rgba(255, 166, 0, 0.489), 0 0 21px rgba(255, 166, 0, 0.533), 0 0 42px rgba(255, 166, 0, 0.516), 0 0 82px rgba(255, 166, 0, 0.527), 0 0 92px rgba(255, 166, 0, 0.434), 0 0 102px rgba(255, 166, 0, 0.544), 0 0 151px rgba(255, 166, 0, 0.533);
-
+    color: orange;
+    text-shadow: 3px 3px 8px #000;
+    position: absolute;
+    bottom: 20px;
 }
    
 .mov {
@@ -435,7 +493,7 @@
 }
 
 .imagenes { 
-    display: block;
+    display: none;
     margin: 0;
     padding: 0;
 }
@@ -443,7 +501,7 @@
 .regalo {
     background-color: #f5f5f5;
     margin: 0;
-    padding: 140px 4%;
+    padding: 180px 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,21 +509,22 @@
 }
 
 .regalo h4 {
-    width: 15%;
-    font-size: 28px;
+    width: 20%;
+    font-size: 40px;
     font-weight: 1200;
     line-height: 110%;
     text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
     color: #333;
-    text-align: center;
+    text-align: right;
     background-image: radial-gradient(rgba(255, 211, 130, 0.822),rgba(255, 231, 186, 0.663),transparent,transparent);
 }
 
 .regalo img {
-    width: 200px;
+    width: 260px;
     position: relative;
+    left: 30px;
 }
 
 }
