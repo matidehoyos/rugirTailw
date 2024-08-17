@@ -18,7 +18,7 @@ function Header() {
             <button className={style.flotante}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer">Hacenos tu consulta <FaWhatsapp className={style.wt}/></a></button>
             <button className={style.flotmovil}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.what}/></a></button>
                 <div className={style.video}>
-                        <video controls playsInline muted autoPlay loop>
+                        <video controls muted playsInline autoPlay loop>
                                 <source src='./video.mp4' type="video/mp4" />
                                 Tu navegador no admite el elemento de video.
                         </video>
