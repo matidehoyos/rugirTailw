@@ -7,6 +7,7 @@ import AlfombrasTablet from '../alfombrasTablet/AlfombrasTablet';
 const images = [
   './mafalda.png',
   './tx.png',
+  './ati.png',
   './carola.png',
   './simpsom.png',
   './diego.png',

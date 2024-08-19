@@ -23,7 +23,7 @@ function Header() {
             <button className={style.flotmovil}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.what}/></a></button>
                 <div className={style.video}>
                         <video muted autoPlay playsInline  loop>
-                                <source src='./video.mp4' type="video/mp4" />
+                                <source src='./ss.mp4' type="video/mp4" />
                                 Tu navegador no admite el elemento de video.
                         </video>
                 </div>
@@ -45,7 +45,6 @@ function Header() {
                         </div>
                     </div>
                 </div>
-              { /*}  <Video /> */ }
                 <div className={style.regalo}>
                     <h4 data-aos="fade-left"  data-aos-duration="1000">EL REGALO PERFECTO <br />EXISTE!!!</h4>
                     <img data-aos="fade-left" data-aos-duration="1000"src="./pika.png" alt="alfombra pikachu" />

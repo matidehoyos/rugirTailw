@@ -6,10 +6,9 @@
     width: auto;
     height: auto;
     margin: 0;
-    padding: 120px 0;
-    background-image: url('../../../public/55.jpg'); 
+    padding: 100px 0;
+    background-image: url('../../../public/madera.jpg'); 
     background-size: cover;
-    background-position: bottom;
 }
 
 .container h6 {
@@ -22,12 +21,12 @@
     letter-spacing: .7px;
     line-height: 130%;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .container img {
     width: 200px;
-    filter: drop-shadow(0px 10px 0px #111);
+    filter: drop-shadow(0px 0px 10px #000);
     object-fit: scale-down;
     padding: 0;
     padding-bottom: 15px;
