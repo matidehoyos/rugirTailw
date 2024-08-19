@@ -186,6 +186,7 @@
     .container p {
         max-width: 50%;
         font-size: 28px;
+        line-height: 36px;
     }
     
     .redes {
