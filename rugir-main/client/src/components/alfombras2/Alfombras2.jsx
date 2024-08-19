@@ -29,7 +29,7 @@ function Alfombras2() {
 
   return (
     <div className={style.container}>
-      <h6 data-aos="fade-right" data-aos-duration="1000">Pedí la de tu equipo</h6>
+      <h6 data-aos="fade-right" data-aos-duration="1000">PEDÍ LA DE TU EQUIPO!!!</h6>
       <img
         src={images[currentIndex]}
         className={style.image}

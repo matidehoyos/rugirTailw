@@ -12,7 +12,7 @@ const Video = () => {
   return (
     <div className={style.boxVideo}>
         <div className={style.box}>
-        <video controls playsInline muted autoPlay>
+        <video playsInline muted autoPlay loop>
                 <source src='./video.mp4' type="video/mp4" />
                 Tu navegador no admite el elemento de video.
           </video>

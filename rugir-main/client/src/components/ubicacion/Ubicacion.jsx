@@ -12,7 +12,6 @@ function Ubicacion() {
   return (
     <div className={style.container}>
              <h3 data-aos="fade-right" data-aos-duration="1000" className={style.pais}><FaTruck className={style.truk}/>ENVIOS A TODO EL PAíS</h3>
-          {/*}   <h3 data-aos="fade-right"className={style.retiro}><FaMapMarkerAlt className={style.ubi}/>PUNTO DE RETIRO MAR DEL PLATA</h3> */ }
     </div>
   )
 }

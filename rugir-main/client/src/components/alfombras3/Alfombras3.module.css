@@ -7,20 +7,23 @@
     height: auto;
     margin: 0;
     padding: 120px 0;
-    background-image: url('../../../public/piso.jpg'); 
+    padding-bottom: 40px;
+    background-image: url('../../../public/5.jpeg'); 
     background-size: cover;
     background-position: bottom;
 }
 
 .container h6 {
     font-family: "Roboto", sans-serif;
-    color: #d8d8d8;
-    filter: drop-shadow(0px 0px 3px #000);
-    font-size: 22px;
-    letter-spacing: .6px;
-    line-height: 100%;
+    color: #d7d7d7;
+    filter: drop-shadow(0px 0px 5px #000);
+    text-shadow: 3px 3px 5px #000000d6, -3px -3px 5px #000000b6;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 130%;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
 }
 
 .container img {

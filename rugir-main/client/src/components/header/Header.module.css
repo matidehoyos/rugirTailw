@@ -35,11 +35,12 @@
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    object-fit: cover;
 }
 
 .video video {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .caja {
@@ -65,20 +66,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    background-color: rgba(0,0,0,.7);
-  /*  background-image: url('../../../public/99.jpeg');
-    background-size: cover; 
-    box-shadow: 0px 0px 30px #000;
-    filter: drop-shadow(0px 0px 5px #000); */
+    background-color: rgba(0,0,0,.5);
 }
 
 .titulo {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 800;
-    line-height: 105%;
-    letter-spacing: .8px;
+    line-height: 108%;
+    letter-spacing: 1.2px;
     margin: 0;
     margin-top: 180px;
     padding: 0;
@@ -86,27 +83,41 @@
     color: #fff;
     text-shadow: 3px 3px 8px #000;
     filter: drop-shadow(0px 0px 5px #000);
-  /*  text-shadow: 0 0 7px rgba(255, 166, 0, 0.188), 0 0 10px rgba(255, 166, 0, 0.292), 0 0 21px rgba(255, 166, 0, 0.292), 0 0 42px rgba(255, 166, 0, 0.253), 0 0 82px rgba(255, 166, 0, 0.286), 0 0 92px rgba(255, 166, 0, 0.248), 0 0 102px rgba(255, 166, 0, 0.264), 0 0 151px rgba(255, 166, 0, 0.281); */
 }
 
 .personalizados {
     font-family: "Roboto", sans-serif;
     width: auto;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 900;
     line-height: 103%;
     letter-spacing: .6px;
     text-align: center;
     margin: 0;
-    margin-top: 40px;
     padding: 0;
     color: orange;
     text-shadow: 3px 3px 8px #000;
     filter: drop-shadow(0px 0px 5px #000);
     position: absolute;
-    bottom: 40px;
-
+    bottom: 120px;
+    animation: mooving 6s linear infinite;
 }
+
+@keyframes mooving {
+    0% {
+      transform: rotateX(15deg) rotate(5deg) scale(0.8); 
+
+    }
+    25% {
+      transform: rotateX(-15deg) rotate(-5deg) scale(1.1); 
+    }
+    75% {  
+      transform: rotateX(15deg) rotate(5deg) scale(1.1); 
+    }
+    100% {
+     transform: rotateX(15deg) rotate(5deg) scale(0.8);
+    }
+  }
 
 .personaliza {
     display: none;
@@ -135,14 +146,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 
 .regalo h4 {
-    width: 60%;
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 94%;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 110%;
     text-shadow: 0px 0px 5px #eee;
     margin: 0;
     padding: 0;
@@ -153,8 +164,8 @@
 
 .regalo img {
     position: relative;
-    left: -38px;
-    width: 50%;
+    left: -20px;
+    width: 60%;
     filter: drop-shadow(22px 0px 20px rgba(0,0,0,.7));
     animation: vibrar 3s ease-in infinite alternate;
 }

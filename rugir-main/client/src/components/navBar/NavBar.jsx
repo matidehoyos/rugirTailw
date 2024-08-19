@@ -29,9 +29,12 @@ function NavBar() {
 
   return (
     <div className={style.container}>
-      <div className={style.logo}>
-        <h2 data-aos="zoom-out" data-aos-duration="1000">RUGIR</h2>
+      <div className={style.log}>
+          <img src="./l.png" alt="logo Rugir" />
       </div>
+     { /*<div className={style.logo}>
+        <h2 data-aos="zoom-out" data-aos-duration="1000">RUGIR</h2>
+      </div> */}
       <div className={style.menu}>
         <ul>
           <li><a href="#about">QUIENES SOMOS?</a></li>

@@ -8,7 +8,6 @@ const images = [
   './mafalda.png',
   './tx.png',
   './carola.png',
-  './pacman.png',
   './simpsom.png',
   './diego.png',
   './serie.png',
@@ -31,7 +30,7 @@ function Alfombras3() {
 
   return (
     <div className={style.container}>
-      <h6>Con el logo de tu empresa,<br/>personalidades, series,<br/>y mucho más...</h6>
+      <h6>CON EL LOGO DE TU EMPRESA,<br/>PERSONAJES, SERIES,<br/>Y MUCHO MÁS...</h6>
       <img
         src={images[currentIndex]}
         className={style.image}
