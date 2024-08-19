@@ -20,7 +20,7 @@ function About() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);
