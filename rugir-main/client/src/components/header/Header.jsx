@@ -17,12 +17,10 @@ function Header() {
         <div className={style.container} id='header'>
             <button className={style.flotante}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer">Hacenos tu consulta <FaWhatsapp className={style.wt}/></a></button>
             <button className={style.flotmovil}><a href="https://api.whatsapp.com/send?phone=542236351363" target="_blank" rel="noopener noreferrer"><FaWhatsapp className={style.what}/></a></button>
-                <div className={style.video}>
-                        <video muted autoPlay playsInline loop>
-                                <source src='./ss.mp4' type="video/mp4" />
-                                Tu navegador no admite el elemento de video.
-                        </video>
-                </div>
+                <video autoPlay muted loop className={style.video}>
+                    <source src='./ss.mp4' type="video/mp4" />
+                    Tu navegador no admite el elemento de video.
+                </video>
                 <div className={style.caja}>
                     <div className={style.first}>
                         <div className={style.titular} data-aos="zoom-out" data-aos-duration="1000">
